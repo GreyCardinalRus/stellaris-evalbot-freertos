@@ -1,0 +1,2906 @@
+Archive member included because of file (symbol)
+
+./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+                              ./RTOSDemo/webserver/emac.o (EthernetInitExpClk)
+./RTOSDemo/driverlib/gcc/libdriver.a(flash.o)
+                              ./RTOSDemo/webserver/uIP_Task.o (FlashUserGet)
+./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                              ./RTOSDemo/ParTest/ParTest.o (GPIODirModeSet)
+./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                              ./RTOSDemo/evalbot_drivers/sound.o (I2STxEnable)
+./RTOSDemo/driverlib/gcc/libdriver.a(interrupt.o)
+                              ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o) (IntRegister)
+./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                              ./RTOSDemo/main.o (SysCtlPeripheralPresent)
+./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                              ./RTOSDemo/timertest.o (TimerEnable)
+./RTOSDemo/driverlib/gcc/libdriver.a(cpu.o)
+                              ./RTOSDemo/driverlib/gcc/libdriver.a(interrupt.o) (CPUcpsid)
+d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcmp.o)
+                              d:/workspace/FreeRTOS/Source/tasks.o (memcmp)
+d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+                              ./RTOSDemo/webserver/httpd.o (memcpy)
+d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+                              d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o (memset)
+d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcat.o)
+                              ./RTOSDemo/webserver/httpd-cgi.o (strcat)
+d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strchr.o)
+                              ./RTOSDemo/webserver/uIP_Task.o (strchr)
+d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcpy.o)
+                              ./RTOSDemo/webserver/uIP_Task.o (strcpy)
+d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strlen.o)
+                              ./RTOSDemo/evalbot_drivers/display96x16x1.o (strlen)
+d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strncmp.o)
+                              ./RTOSDemo/driverlib/ustdlib.o (strncmp)
+d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strncpy.o)
+                              ./RTOSDemo/driverlib/ustdlib.o (strncpy)
+d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strrchr.o)
+                              ./RTOSDemo/webserver/httpd.o (strrchr)
+d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strstr.o)
+                              ./RTOSDemo/webserver/uIP_Task.o (strstr)
+d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memchr.o)
+                              d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strstr.o) (memchr)
+
+Allocating common symbols
+Common symbol       size              file
+
+uip_len             0x2               d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+xOLEDQueue          0x4               ./RTOSDemo/main.o
+pcStatus            0x4               ./RTOSDemo/webserver/httpd-cgi.o
+xHighPriorityTask   0x4               d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+uip_sappdata        0x4               d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+uip_acc32           0x4               d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+xMediumPriorityTask
+                    0x4               d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+xQueueRegistry      0x50              d:/workspace/FreeRTOS/Source/queue.o
+uip_flags           0x1               d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+xHighPriorityNormallyEmptyTask2
+                    0x4               d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+xHighPriorityNormallyFullTask1
+                    0x4               d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+uip_appdata         0x4               d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+uip_conn            0x4               d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+uip_conns           0x1fe0            d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+xHighPriorityNormallyEmptyTask1
+                    0x4               d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+xHighestPriorityTask
+                    0x4               d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+xCreatedTask        0x4               d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+uip_listenports     0x50              d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+uip_draddr          0x4               d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+uip_stat            0x2c              d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+sDMAControlTable    0x10              ./RTOSDemo/evalbot_drivers/sound.o
+uip_netmask         0x4               d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+uip_hostaddr        0x4               d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+xHighPriorityNormallyFullTask2
+                    0x4               d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+uip_buf             0x4               ./RTOSDemo/webserver/emac.o
+uip_slen            0x2               d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00000000         0x00040000         xr
+SRAM             0x20000000         0x00018000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./RTOSDemo/main.o
+LOAD ./RTOSDemo/timertest.o
+LOAD ./RTOSDemo/ParTest/ParTest.o
+LOAD ./RTOSDemo/evalbot_drivers/dac.o
+LOAD ./RTOSDemo/evalbot_drivers/display96x16x1.o
+LOAD ./RTOSDemo/evalbot_drivers/io.o
+LOAD ./RTOSDemo/evalbot_drivers/motor.o
+LOAD ./RTOSDemo/evalbot_drivers/sensors.o
+LOAD ./RTOSDemo/evalbot_drivers/sound.o
+LOAD ./RTOSDemo/evalbot_drivers/wav.o
+LOAD ./RTOSDemo/driverlib/ustdlib.o
+LOAD d:/workspace/FreeRTOS/Demo/Common/Minimal/BlockQ.o
+LOAD d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+LOAD d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+LOAD d:/workspace/FreeRTOS/Demo/Common/Minimal/integer.o
+LOAD d:/workspace/FreeRTOS/Demo/Common/Minimal/PollQ.o
+LOAD d:/workspace/FreeRTOS/Demo/Common/Minimal/semtest.o
+LOAD d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+LOAD d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+LOAD d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+LOAD d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+LOAD ./RTOSDemo/IntQueueTimer.o
+LOAD ./RTOSDemo/webserver/uIP_Task.o
+LOAD ./RTOSDemo/webserver/emac.o
+LOAD ./RTOSDemo/webserver/httpd.o
+LOAD ./RTOSDemo/webserver/httpd-cgi.o
+LOAD ./RTOSDemo/webserver/httpd-fs.o
+LOAD ./RTOSDemo/webserver/http-strings.o
+LOAD d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+LOAD d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+LOAD d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/timer.o
+LOAD d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+LOAD d:/workspace/FreeRTOS/Source/list.o
+LOAD d:/workspace/FreeRTOS/Source/queue.o
+LOAD d:/workspace/FreeRTOS/Source/tasks.o
+LOAD d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+LOAD d:/workspace/FreeRTOS/Source/portable/MemMang/heap_2.o
+LOAD ./RTOSDemo/startup.o
+LOAD ./RTOSDemo/driverlib/gcc/libdriver.a
+LOAD ./RTOSDemo/driverlib/gcc/libgr.a
+START GROUP
+LOAD d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/thumb2\libgcc.a
+LOAD d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a
+END GROUP
+
+.text           0x00000000    0x15044
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xf0 ./RTOSDemo/startup.o
+                0x00000000                g_pfnVectors
+ *(.text*)
+ .text          0x000000f0        0x0 ./RTOSDemo/main.o
+ .text.main     0x000000f0       0xec ./RTOSDemo/main.o
+                0x000000f0                main
+ .text.prvSetupHardware
+                0x000001dc       0x50 ./RTOSDemo/main.o
+ .text.vApplicationTickHook
+                0x0000022c      0x1c4 ./RTOSDemo/main.o
+                0x0000022c                vApplicationTickHook
+ .text.vOLEDTask
+                0x000003f0      0x12c ./RTOSDemo/main.o
+ .text.vApplicationStackOverflowHook
+                0x0000051c        0xc ./RTOSDemo/main.o
+                0x0000051c                vApplicationStackOverflowHook
+ .text          0x00000528        0x0 ./RTOSDemo/timertest.o
+ .text.vSetupHighFrequencyTimer
+                0x00000528       0xc0 ./RTOSDemo/timertest.o
+                0x00000528                vSetupHighFrequencyTimer
+ .text.Timer0IntHandler
+                0x000005e8       0xa8 ./RTOSDemo/timertest.o
+                0x000005e8                Timer0IntHandler
+ .text          0x00000690        0x0 ./RTOSDemo/ParTest/ParTest.o
+ .text.vParTestInitialise
+                0x00000690       0x48 ./RTOSDemo/ParTest/ParTest.o
+                0x00000690                vParTestInitialise
+ .text.vParTestSetLED
+                0x000006d8       0x28 ./RTOSDemo/ParTest/ParTest.o
+                0x000006d8                vParTestSetLED
+ .text.uxParTestGetLED
+                0x00000700       0x24 ./RTOSDemo/ParTest/ParTest.o
+                0x00000700                uxParTestGetLED
+ .text          0x00000724        0x0 ./RTOSDemo/evalbot_drivers/dac.o
+ .text.DACWriteRegister
+                0x00000724      0x1e4 ./RTOSDemo/evalbot_drivers/dac.o
+ .text.DACReadRegister
+                0x00000908      0x228 ./RTOSDemo/evalbot_drivers/dac.o
+ .text.DACInit  0x00000b30      0x270 ./RTOSDemo/evalbot_drivers/dac.o
+                0x00000b30                DACInit
+ .text.DACVolumeSet
+                0x00000da0       0x74 ./RTOSDemo/evalbot_drivers/dac.o
+                0x00000da0                DACVolumeSet
+ .text.DACVolumeGet
+                0x00000e14       0x18 ./RTOSDemo/evalbot_drivers/dac.o
+                0x00000e14                DACVolumeGet
+ .text.DACClassDEn
+                0x00000e2c       0x14 ./RTOSDemo/evalbot_drivers/dac.o
+                0x00000e2c                DACClassDEn
+ .text.DACClassDDis
+                0x00000e40       0x14 ./RTOSDemo/evalbot_drivers/dac.o
+                0x00000e40                DACClassDDis
+ .text          0x00000e54        0x0 ./RTOSDemo/evalbot_drivers/display96x16x1.o
+ .text.Display96x16x1WriteFirst
+                0x00000e54       0x6c ./RTOSDemo/evalbot_drivers/display96x16x1.o
+ .text.Display96x16x1WriteByte
+                0x00000ec0       0x8c ./RTOSDemo/evalbot_drivers/display96x16x1.o
+ .text.Display96x16x1WriteArray
+                0x00000f4c       0xa4 ./RTOSDemo/evalbot_drivers/display96x16x1.o
+ .text.Display96x16x1WriteFinal
+                0x00000ff0       0xcc ./RTOSDemo/evalbot_drivers/display96x16x1.o
+ .text.Display96x16x1ClearLine
+                0x000010bc       0x60 ./RTOSDemo/evalbot_drivers/display96x16x1.o
+                0x000010bc                Display96x16x1ClearLine
+ .text.Display96x16x1Clear
+                0x0000111c       0x18 ./RTOSDemo/evalbot_drivers/display96x16x1.o
+                0x0000111c                Display96x16x1Clear
+ .text.Display96x16x1StringDrawLen
+                0x00001134      0x150 ./RTOSDemo/evalbot_drivers/display96x16x1.o
+                0x00001134                Display96x16x1StringDrawLen
+ .text.Display96x16x1StringDraw
+                0x00001284       0x24 ./RTOSDemo/evalbot_drivers/display96x16x1.o
+                0x00001284                Display96x16x1StringDraw
+ .text.Display96x16x1StringDrawCentered
+                0x000012a8       0x74 ./RTOSDemo/evalbot_drivers/display96x16x1.o
+                0x000012a8                Display96x16x1StringDrawCentered
+ .text.Display96x16x1ImageDraw
+                0x0000131c       0xc8 ./RTOSDemo/evalbot_drivers/display96x16x1.o
+                0x0000131c                Display96x16x1ImageDraw
+ .text.Display96x16x1Init
+                0x000013e4      0x258 ./RTOSDemo/evalbot_drivers/display96x16x1.o
+                0x000013e4                Display96x16x1Init
+ .text.Display96x16x1DisplayOn
+                0x0000163c       0x9c ./RTOSDemo/evalbot_drivers/display96x16x1.o
+                0x0000163c                Display96x16x1DisplayOn
+ .text.Display96x16x1DisplayOff
+                0x000016d8       0x38 ./RTOSDemo/evalbot_drivers/display96x16x1.o
+                0x000016d8                Display96x16x1DisplayOff
+ .text          0x00001710        0x0 ./RTOSDemo/evalbot_drivers/io.o
+ .text.PushButtonsInit
+                0x00001710       0x68 ./RTOSDemo/evalbot_drivers/io.o
+                0x00001710                PushButtonsInit
+ .text.PushButtonDebouncer
+                0x00001778      0x124 ./RTOSDemo/evalbot_drivers/io.o
+                0x00001778                PushButtonDebouncer
+ .text.PushButtonGetStatus
+                0x0000189c       0x84 ./RTOSDemo/evalbot_drivers/io.o
+                0x0000189c                PushButtonGetStatus
+ .text.PushButtonGetDebounced
+                0x00001920       0x5c ./RTOSDemo/evalbot_drivers/io.o
+                0x00001920                PushButtonGetDebounced
+ .text.LEDsInit
+                0x0000197c       0x48 ./RTOSDemo/evalbot_drivers/io.o
+                0x0000197c                LEDsInit
+ .text.LED_On   0x000019c4       0x84 ./RTOSDemo/evalbot_drivers/io.o
+                0x000019c4                LED_On
+ .text.LED_Off  0x00001a48       0x84 ./RTOSDemo/evalbot_drivers/io.o
+                0x00001a48                LED_Off
+ .text.LED_Toggle
+                0x00001acc       0xfc ./RTOSDemo/evalbot_drivers/io.o
+                0x00001acc                LED_Toggle
+ .text          0x00001bc8        0x0 ./RTOSDemo/evalbot_drivers/motor.o
+ .text.MotorsInit
+                0x00001bc8      0x320 ./RTOSDemo/evalbot_drivers/motor.o
+                0x00001bc8                MotorsInit
+ .text.MotorDir
+                0x00001ee8       0xa8 ./RTOSDemo/evalbot_drivers/motor.o
+                0x00001ee8                MotorDir
+ .text.MotorRun
+                0x00001f90       0x44 ./RTOSDemo/evalbot_drivers/motor.o
+                0x00001f90                MotorRun
+ .text.MotorStop
+                0x00001fd4       0x5c ./RTOSDemo/evalbot_drivers/motor.o
+                0x00001fd4                MotorStop
+ .text.MotorSpeed
+                0x00002030       0xcc ./RTOSDemo/evalbot_drivers/motor.o
+                0x00002030                MotorSpeed
+ .text          0x000020fc        0x0 ./RTOSDemo/evalbot_drivers/sensors.o
+ .text.BumpSensorsInit
+                0x000020fc       0x68 ./RTOSDemo/evalbot_drivers/sensors.o
+                0x000020fc                BumpSensorsInit
+ .text.BumpSensorGetStatus
+                0x00002164       0x80 ./RTOSDemo/evalbot_drivers/sensors.o
+                0x00002164                BumpSensorGetStatus
+ .text.BumpSensorDebouncer
+                0x000021e4      0x124 ./RTOSDemo/evalbot_drivers/sensors.o
+                0x000021e4                BumpSensorDebouncer
+ .text.BumpSensorGetDebounced
+                0x00002308       0x58 ./RTOSDemo/evalbot_drivers/sensors.o
+                0x00002308                BumpSensorGetDebounced
+ .text.WheelSensorsInit
+                0x00002360      0x1b0 ./RTOSDemo/evalbot_drivers/sensors.o
+                0x00002360                WheelSensorsInit
+ .text.WheelSensorEnable
+                0x00002510       0x24 ./RTOSDemo/evalbot_drivers/sensors.o
+                0x00002510                WheelSensorEnable
+ .text.WheelSensorDisable
+                0x00002534       0x24 ./RTOSDemo/evalbot_drivers/sensors.o
+                0x00002534                WheelSensorDisable
+ .text.WheelSensorIntEnable
+                0x00002558       0x94 ./RTOSDemo/evalbot_drivers/sensors.o
+                0x00002558                WheelSensorIntEnable
+ .text.WheelSensorIntDisable
+                0x000025ec       0x58 ./RTOSDemo/evalbot_drivers/sensors.o
+                0x000025ec                WheelSensorIntDisable
+ .text.WheelSensorIntHandler
+                0x00002644      0x15c ./RTOSDemo/evalbot_drivers/sensors.o
+                0x00002644                WheelSensorIntHandler
+ .text          0x000027a0        0x0 ./RTOSDemo/evalbot_drivers/sound.o
+ .text.SoundInit
+                0x000027a0      0x1e0 ./RTOSDemo/evalbot_drivers/sound.o
+                0x000027a0                SoundInit
+ .text.SoundIntHandler
+                0x00002980      0x174 ./RTOSDemo/evalbot_drivers/sound.o
+                0x00002980                SoundIntHandler
+ .text.SoundSetFormat
+                0x00002af4      0x2f4 ./RTOSDemo/evalbot_drivers/sound.o
+                0x00002af4                SoundSetFormat
+ .text.SoundSampleRateGet
+                0x00002de8       0x18 ./RTOSDemo/evalbot_drivers/sound.o
+                0x00002de8                SoundSampleRateGet
+ .text.SoundBufferPlay
+                0x00002e00      0x2c0 ./RTOSDemo/evalbot_drivers/sound.o
+                0x00002e00                SoundBufferPlay
+ .text.SoundVolumeSet
+                0x000030c0       0x18 ./RTOSDemo/evalbot_drivers/sound.o
+                0x000030c0                SoundVolumeSet
+ .text.SoundVolumeGet
+                0x000030d8       0x18 ./RTOSDemo/evalbot_drivers/sound.o
+                0x000030d8                SoundVolumeGet
+ .text.SoundVolumeDown
+                0x000030f0       0x60 ./RTOSDemo/evalbot_drivers/sound.o
+                0x000030f0                SoundVolumeDown
+ .text.SoundVolumeUp
+                0x00003150       0x58 ./RTOSDemo/evalbot_drivers/sound.o
+                0x00003150                SoundVolumeUp
+ .text.SoundClassDEn
+                0x000031a8        0xc ./RTOSDemo/evalbot_drivers/sound.o
+                0x000031a8                SoundClassDEn
+ .text.SoundClassDDis
+                0x000031b4        0xc ./RTOSDemo/evalbot_drivers/sound.o
+                0x000031b4                SoundClassDDis
+ .text          0x000031c0        0x0 ./RTOSDemo/evalbot_drivers/wav.o
+ .text.BufferCallback
+                0x000031c0       0x78 ./RTOSDemo/evalbot_drivers/wav.o
+ .text.WaveConvert8Bit
+                0x00003238       0x44 ./RTOSDemo/evalbot_drivers/wav.o
+ .text.WaveOpen
+                0x0000327c      0x1f4 ./RTOSDemo/evalbot_drivers/wav.o
+                0x0000327c                WaveOpen
+ .text.WaveStop
+                0x00003470       0x24 ./RTOSDemo/evalbot_drivers/wav.o
+                0x00003470                WaveStop
+ .text.WaveRead
+                0x00003494       0xb8 ./RTOSDemo/evalbot_drivers/wav.o
+ .text.WavePlayStart
+                0x0000354c       0x3c ./RTOSDemo/evalbot_drivers/wav.o
+                0x0000354c                WavePlayStart
+ .text.WavePlayContinue
+                0x00003588      0x134 ./RTOSDemo/evalbot_drivers/wav.o
+                0x00003588                WavePlayContinue
+ .text.WaveGetTime
+                0x000036bc       0xa0 ./RTOSDemo/evalbot_drivers/wav.o
+                0x000036bc                WaveGetTime
+ .text.WavePlaybackStatus
+                0x0000375c       0x24 ./RTOSDemo/evalbot_drivers/wav.o
+                0x0000375c                WavePlaybackStatus
+ .text          0x00003780        0x0 ./RTOSDemo/driverlib/ustdlib.o
+ .text.uvsnprintf
+                0x00003780      0x5bc ./RTOSDemo/driverlib/ustdlib.o
+                0x00003780                uvsnprintf
+ .text.usprintf
+                0x00003d3c       0x34 ./RTOSDemo/driverlib/ustdlib.o
+                0x00003d3c                usprintf
+ .text.usnprintf
+                0x00003d70       0x34 ./RTOSDemo/driverlib/ustdlib.o
+                0x00003d70                usnprintf
+ .text.ulocaltime
+                0x00003da4      0x1e0 ./RTOSDemo/driverlib/ustdlib.o
+                0x00003da4                ulocaltime
+ .text.ustrtoul
+                0x00003f84      0x184 ./RTOSDemo/driverlib/ustdlib.o
+                0x00003f84                ustrtoul
+ .text.ustrstr  0x00004108       0x48 ./RTOSDemo/driverlib/ustdlib.o
+                0x00004108                ustrstr
+ .text.ustrnicmp
+                0x00004150       0xb4 ./RTOSDemo/driverlib/ustdlib.o
+                0x00004150                ustrnicmp
+ .text.ustrcasecmp
+                0x00004204       0x24 ./RTOSDemo/driverlib/ustdlib.o
+                0x00004204                ustrcasecmp
+ .text          0x00004228        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/BlockQ.o
+ .text.vStartBlockingQueueTasks
+                0x00004228      0x244 d:/workspace/FreeRTOS/Demo/Common/Minimal/BlockQ.o
+                0x00004228                vStartBlockingQueueTasks
+ .text.vBlockingQueueProducer
+                0x0000446c       0x64 d:/workspace/FreeRTOS/Demo/Common/Minimal/BlockQ.o
+ .text.vBlockingQueueConsumer
+                0x000044d0       0x74 d:/workspace/FreeRTOS/Demo/Common/Minimal/BlockQ.o
+ .text.xAreBlockingQueuesStillRunning
+                0x00004544       0xc4 d:/workspace/FreeRTOS/Demo/Common/Minimal/BlockQ.o
+                0x00004544                xAreBlockingQueuesStillRunning
+ .text          0x00004608        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+ .text.vCreateBlockTimeTasks
+                0x00004608       0xac d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+                0x00004608                vCreateBlockTimeTasks
+ .text.vPrimaryBlockTimeTestTask
+                0x000046b4      0x468 d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+ .text.vSecondaryBlockTimeTestTask
+                0x00004b1c      0x148 d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+ .text.xAreBlockTimeTestTasksStillRunning
+                0x00004c64       0x94 d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+                0x00004c64                xAreBlockTimeTestTasksStillRunning
+ .text          0x00004cf8        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+ .text.vCreateSuicidalTasks
+                0x00004cf8       0x78 d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+                0x00004cf8                vCreateSuicidalTasks
+ .text.vSuicidalTask
+                0x00004d70       0x60 d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+ .text.vCreateTasks
+                0x00004dd0       0xb8 d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+ .text.xIsCreateTaskStillRunning
+                0x00004e88       0xac d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+                0x00004e88                xIsCreateTaskStillRunning
+ .text          0x00004f34        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/integer.o
+ .text.vStartIntegerMathTasks
+                0x00004f34       0x68 d:/workspace/FreeRTOS/Demo/Common/Minimal/integer.o
+                0x00004f34                vStartIntegerMathTasks
+ .text.vCompeteingIntMathTask
+                0x00004f9c       0x80 d:/workspace/FreeRTOS/Demo/Common/Minimal/integer.o
+ .text.xAreIntegerMathsTaskStillRunning
+                0x0000501c       0x60 d:/workspace/FreeRTOS/Demo/Common/Minimal/integer.o
+                0x0000501c                xAreIntegerMathsTaskStillRunning
+ .text          0x0000507c        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/PollQ.o
+ .text.vStartPolledQueueTasks
+                0x0000507c       0xb0 d:/workspace/FreeRTOS/Demo/Common/Minimal/PollQ.o
+                0x0000507c                vStartPolledQueueTasks
+ .text.vPolledQueueProducer
+                0x0000512c       0x8c d:/workspace/FreeRTOS/Demo/Common/Minimal/PollQ.o
+ .text.vPolledQueueConsumer
+                0x000051b8       0x94 d:/workspace/FreeRTOS/Demo/Common/Minimal/PollQ.o
+ .text.xArePollingQueuesStillRunning
+                0x0000524c       0x5c d:/workspace/FreeRTOS/Demo/Common/Minimal/PollQ.o
+                0x0000524c                xArePollingQueuesStillRunning
+ .text          0x000052a8        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/semtest.o
+ .text.vStartSemaphoreTasks
+                0x000052a8      0x1d4 d:/workspace/FreeRTOS/Demo/Common/Minimal/semtest.o
+                0x000052a8                vStartSemaphoreTasks
+ .text.prvSemaphoreTest
+                0x0000547c      0x13c d:/workspace/FreeRTOS/Demo/Common/Minimal/semtest.o
+ .text.xAreSemaphoreTasksStillRunning
+                0x000055b8       0x7c d:/workspace/FreeRTOS/Demo/Common/Minimal/semtest.o
+                0x000055b8                xAreSemaphoreTasksStillRunning
+ .text          0x00005634        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+ .text.vStartGenericQueueTasks
+                0x00005634      0x118 d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+                0x00005634                vStartGenericQueueTasks
+ .text.prvSendFrontAndBackTest
+                0x0000574c      0x468 d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+ .text.prvLowPriorityMutexTask
+                0x00005bb4      0x160 d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+ .text.prvMediumPriorityMutexTask
+                0x00005d14       0x2c d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+ .text.prvHighPriorityMutexTask
+                0x00005d40       0x68 d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+ .text.xAreGenericQueueTasksStillRunning
+                0x00005da8       0x94 d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+                0x00005da8                xAreGenericQueueTasksStillRunning
+ .text          0x00005e3c        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+ .text.vStartQueuePeekTasks
+                0x00005e3c      0x104 d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+                0x00005e3c                vStartQueuePeekTasks
+ .text.prvHighestPriorityPeekTask
+                0x00005f40      0x168 d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+ .text.prvHighPriorityPeekTask
+                0x000060a8       0xc0 d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+ .text.prvMediumPriorityPeekTask
+                0x00006168       0x8c d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+ .text.prvLowPriorityPeekTask
+                0x000061f4      0x174 d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+ .text.xAreQueuePeekTasksStillRunning
+                0x00006368       0x58 d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+                0x00006368                xAreQueuePeekTasksStillRunning
+ .text          0x000063c0        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .text.vStartRecursiveMutexTasks
+                0x000063c0       0xe8 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+                0x000063c0                vStartRecursiveMutexTasks
+ .text.prvRecursiveMutexControllingTask
+                0x000064a8      0x118 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .text.prvRecursiveMutexBlockingTask
+                0x000065c0       0xdc d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .text.prvRecursiveMutexPollingTask
+                0x0000669c       0xdc d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .text.xAreRecursiveMutexTasksStillRunning
+                0x00006778       0xe4 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+                0x00006778                xAreRecursiveMutexTasksStillRunning
+ .text          0x0000685c        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .text.vStartInterruptQueueTasks
+                0x0000685c      0x1bc d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+                0x0000685c                vStartInterruptQueueTasks
+ .text.prvRecordValue_NormallyFull
+                0x00006a18       0x44 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .text.prvRecordValue_NormallyEmpty
+                0x00006a5c       0x44 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .text.prvQueueAccessLogError
+                0x00006aa0       0x2c d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .text.prvHigherPriorityNormallyEmptyTask
+                0x00006acc      0x1cc d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .text.prvLowerPriorityNormallyEmptyTask
+                0x00006c98       0xf4 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .text.prv1stHigherPriorityNormallyFullTask
+                0x00006d8c      0x1c4 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .text.prv2ndHigherPriorityNormallyFullTask
+                0x00006f50       0xe4 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .text.prvLowerPriorityNormallyFullTask
+                0x00007034       0xd0 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .text.xFirstTimerHandler
+                0x00007104      0x204 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+                0x00007104                xFirstTimerHandler
+ .text.xSecondTimerHandler
+                0x00007308      0x338 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+                0x00007308                xSecondTimerHandler
+ .text.xAreIntQueueTasksStillRunning
+                0x00007640       0xe4 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+                0x00007640                xAreIntQueueTasksStillRunning
+ .text          0x00007724        0x0 ./RTOSDemo/IntQueueTimer.o
+ .text.vInitialiseTimerForIntQueueTest
+                0x00007724       0xe8 ./RTOSDemo/IntQueueTimer.o
+                0x00007724                vInitialiseTimerForIntQueueTest
+ .text.vT2InterruptHandler
+                0x0000780c       0x24 ./RTOSDemo/IntQueueTimer.o
+                0x0000780c                vT2InterruptHandler
+ .text.vT3InterruptHandler
+                0x00007830       0x24 ./RTOSDemo/IntQueueTimer.o
+                0x00007830                vT3InterruptHandler
+ .text          0x00007854        0x0 ./RTOSDemo/webserver/uIP_Task.o
+ .text.clock_init
+                0x00007854        0xc ./RTOSDemo/webserver/uIP_Task.o
+                0x00007854                clock_init
+ .text.clock_time
+                0x00007860       0x10 ./RTOSDemo/webserver/uIP_Task.o
+                0x00007860                clock_time
+ .text.vuIP_Task
+                0x00007870      0x208 ./RTOSDemo/webserver/uIP_Task.o
+                0x00007870                vuIP_Task
+ .text.prvENET_Send
+                0x00007a78       0x20 ./RTOSDemo/webserver/uIP_Task.o
+ .text.prvSetMACAddress
+                0x00007a98       0xc4 ./RTOSDemo/webserver/uIP_Task.o
+ .text.vApplicationProcessFormInput
+                0x00007b5c       0xe0 ./RTOSDemo/webserver/uIP_Task.o
+                0x00007b5c                vApplicationProcessFormInput
+ .text          0x00007c3c        0x0 ./RTOSDemo/webserver/emac.o
+ .text.vInitEMAC
+                0x00007c3c      0x160 ./RTOSDemo/webserver/emac.o
+                0x00007c3c                vInitEMAC
+ .text.uiGetEMACRxData
+                0x00007d9c       0xac ./RTOSDemo/webserver/emac.o
+                0x00007d9c                uiGetEMACRxData
+ .text.vInitialiseSend
+                0x00007e48       0x18 ./RTOSDemo/webserver/emac.o
+                0x00007e48                vInitialiseSend
+ .text.vIncrementTxLength
+                0x00007e60       0x2c ./RTOSDemo/webserver/emac.o
+                0x00007e60                vIncrementTxLength
+ .text.vSendBufferToMAC
+                0x00007e8c       0x98 ./RTOSDemo/webserver/emac.o
+                0x00007e8c                vSendBufferToMAC
+ .text.vEMAC_ISR
+                0x00007f24       0x78 ./RTOSDemo/webserver/emac.o
+                0x00007f24                vEMAC_ISR
+ .text.vMACHandleTask
+                0x00007f9c      0x180 ./RTOSDemo/webserver/emac.o
+                0x00007f9c                vMACHandleTask
+ .text          0x0000811c        0x0 ./RTOSDemo/webserver/httpd.o
+ .text.generate_part_of_file
+                0x0000811c       0x78 ./RTOSDemo/webserver/httpd.o
+ .text.send_file
+                0x00008194       0x94 ./RTOSDemo/webserver/httpd.o
+ .text.send_part_of_file
+                0x00008228       0x68 ./RTOSDemo/webserver/httpd.o
+ .text.next_scriptstate
+                0x00008290       0x50 ./RTOSDemo/webserver/httpd.o
+ .text.handle_script
+                0x000082e0      0x22c ./RTOSDemo/webserver/httpd.o
+ .text.send_headers
+                0x0000850c      0x2d4 ./RTOSDemo/webserver/httpd.o
+ .text.handle_output
+                0x000087e0      0x17c ./RTOSDemo/webserver/httpd.o
+ .text.handle_input
+                0x0000895c      0x1e0 ./RTOSDemo/webserver/httpd.o
+ .text.handle_connection
+                0x00008b3c       0x28 ./RTOSDemo/webserver/httpd.o
+ .text.httpd_appcall
+                0x00008b64      0x118 ./RTOSDemo/webserver/httpd.o
+                0x00008b64                httpd_appcall
+ .text.httpd_init
+                0x00008c7c       0x10 ./RTOSDemo/webserver/httpd.o
+                0x00008c7c                httpd_init
+ .text          0x00008c8c        0x0 ./RTOSDemo/webserver/httpd-cgi.o
+ .text.nullfunction
+                0x00008c8c       0x30 ./RTOSDemo/webserver/httpd-cgi.o
+ .text.httpd_cgi
+                0x00008cbc       0x64 ./RTOSDemo/webserver/httpd-cgi.o
+                0x00008cbc                httpd_cgi
+ .text.generate_file_stats
+                0x00008d20       0x40 ./RTOSDemo/webserver/httpd-cgi.o
+ .text.file_stats
+                0x00008d60       0x74 ./RTOSDemo/webserver/httpd-cgi.o
+ .text.generate_tcp_stats
+                0x00008dd4      0x120 ./RTOSDemo/webserver/httpd-cgi.o
+ .text.tcp_stats
+                0x00008ef4       0xb4 ./RTOSDemo/webserver/httpd-cgi.o
+ .text.generate_net_stats
+                0x00008fa8       0x4c ./RTOSDemo/webserver/httpd-cgi.o
+ .text.net_stats
+                0x00008ff4       0x8c ./RTOSDemo/webserver/httpd-cgi.o
+ .text.generate_rtos_stats
+                0x00009080       0x88 ./RTOSDemo/webserver/httpd-cgi.o
+ .text.rtos_stats
+                0x00009108       0x68 ./RTOSDemo/webserver/httpd-cgi.o
+ .text.generate_io_state
+                0x00009170       0x80 ./RTOSDemo/webserver/httpd-cgi.o
+ .text.generate_runtime_stats
+                0x000091f0       0x88 ./RTOSDemo/webserver/httpd-cgi.o
+ .text.run_time
+                0x00009278       0x6c ./RTOSDemo/webserver/httpd-cgi.o
+ .text.led_io   0x000092e4       0x6c ./RTOSDemo/webserver/httpd-cgi.o
+ .text          0x00009350        0x0 ./RTOSDemo/webserver/httpd-fs.o
+ .text.httpd_fs_strcmp
+                0x00009350       0x6c ./RTOSDemo/webserver/httpd-fs.o
+ .text.httpd_fs_open
+                0x000093bc       0x88 ./RTOSDemo/webserver/httpd-fs.o
+                0x000093bc                httpd_fs_open
+ .text.httpd_fs_init
+                0x00009444       0x38 ./RTOSDemo/webserver/httpd-fs.o
+                0x00009444                httpd_fs_init
+ .text.httpd_fs_count
+                0x0000947c       0x60 ./RTOSDemo/webserver/httpd-fs.o
+                0x0000947c                httpd_fs_count
+ .text          0x000094dc        0x0 ./RTOSDemo/webserver/http-strings.o
+ .text          0x000094dc        0x0 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+ .text.uip_arp_init
+                0x000094dc       0x8c d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+                0x000094dc                uip_arp_init
+ .text.uip_arp_timer
+                0x00009568       0xd8 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+                0x00009568                uip_arp_timer
+ .text.uip_arp_update
+                0x00009640      0x248 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+ .text.uip_arp_ipin
+                0x00009888       0xac d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+                0x00009888                uip_arp_ipin
+ .text.uip_arp_arpin
+                0x00009934      0x244 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+                0x00009934                uip_arp_arpin
+ .text.uip_arp_out
+                0x00009b78      0x394 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+                0x00009b78                uip_arp_out
+ .text          0x00009f0c        0x0 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+ .text.buf_setup
+                0x00009f0c       0x24 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+ .text.buf_bufdata
+                0x00009f30      0x118 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+ .text.buf_bufto
+                0x0000a048       0xa0 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+ .text.send_data
+                0x0000a0e8       0x6c d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+ .text.data_acked
+                0x0000a154       0x84 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+ .text.psock_send
+                0x0000a1d8       0x94 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+                0x0000a1d8                psock_send
+ .text.psock_generator_send
+                0x0000a26c       0xb4 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+                0x0000a26c                psock_generator_send
+ .text.psock_datalen
+                0x0000a320       0x24 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+                0x0000a320                psock_datalen
+ .text.psock_newdata
+                0x0000a344       0x58 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+                0x0000a344                psock_newdata
+ .text.psock_readto
+                0x0000a39c       0xc8 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+                0x0000a39c                psock_readto
+ .text.psock_readbuf
+                0x0000a464       0xd0 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+                0x0000a464                psock_readbuf
+ .text.psock_init
+                0x0000a534       0x48 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+                0x0000a534                psock_init
+ .text          0x0000a57c        0x0 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/timer.o
+ .text.timer_set
+                0x0000a57c       0x24 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/timer.o
+                0x0000a57c                timer_set
+ .text.timer_reset
+                0x0000a5a0       0x20 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/timer.o
+                0x0000a5a0                timer_reset
+ .text.timer_restart
+                0x0000a5c0       0x1c d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/timer.o
+                0x0000a5c0                timer_restart
+ .text.timer_expired
+                0x0000a5dc       0x2c d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/timer.o
+                0x0000a5dc                timer_expired
+ .text          0x0000a608        0x0 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+ .text.uip_setipid
+                0x0000a608       0x20 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+                0x0000a608                uip_setipid
+ .text.uip_add32
+                0x0000a628      0x144 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+                0x0000a628                uip_add32
+ .text.chksum   0x0000a76c       0x98 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+ .text.uip_chksum
+                0x0000a804       0x30 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+                0x0000a804                uip_chksum
+ .text.uip_ipchksum
+                0x0000a834       0x48 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+                0x0000a834                uip_ipchksum
+ .text.upper_layer_chksum
+                0x0000a87c       0xa8 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+ .text.uip_tcpchksum
+                0x0000a924       0x14 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+                0x0000a924                uip_tcpchksum
+ .text.uip_udpchksum
+                0x0000a938       0x14 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+                0x0000a938                uip_udpchksum
+ .text.uip_init
+                0x0000a94c       0xcc d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+                0x0000a94c                uip_init
+ .text.uip_connect
+                0x0000aa18      0x1d0 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+                0x0000aa18                uip_connect
+ .text.uip_unlisten
+                0x0000abe8       0x88 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+                0x0000abe8                uip_unlisten
+ .text.uip_listen
+                0x0000ac70       0x84 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+                0x0000ac70                uip_listen
+ .text.uip_add_rcv_nxt
+                0x0000acf4       0x84 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+ .text.uip_process
+                0x0000ad78     0x1ea4 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+                0x0000ad78                uip_process
+ .text.htons    0x0000cc1c       0x30 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+                0x0000cc1c                htons
+ .text.uip_send
+                0x0000cc4c       0x58 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+                0x0000cc4c                uip_send
+ .text          0x0000cca4        0x0 d:/workspace/FreeRTOS/Source/list.o
+ .text.vListInitialise
+                0x0000cca4       0x40 d:/workspace/FreeRTOS/Source/list.o
+                0x0000cca4                vListInitialise
+ .text.vListInitialiseItem
+                0x0000cce4       0x1c d:/workspace/FreeRTOS/Source/list.o
+                0x0000cce4                vListInitialiseItem
+ .text.vListInsertEnd
+                0x0000cd00       0x50 d:/workspace/FreeRTOS/Source/list.o
+                0x0000cd00                vListInsertEnd
+ .text.vListInsert
+                0x0000cd50       0x74 d:/workspace/FreeRTOS/Source/list.o
+                0x0000cd50                vListInsert
+ .text.vListRemove
+                0x0000cdc4       0x54 d:/workspace/FreeRTOS/Source/list.o
+                0x0000cdc4                vListRemove
+ .text          0x0000ce18        0x0 d:/workspace/FreeRTOS/Source/queue.o
+ .text.xQueueGenericReset
+                0x0000ce18       0xac d:/workspace/FreeRTOS/Source/queue.o
+                0x0000ce18                xQueueGenericReset
+ .text.xQueueGenericCreate
+                0x0000cec4       0x84 d:/workspace/FreeRTOS/Source/queue.o
+                0x0000cec4                xQueueGenericCreate
+ .text.xQueueCreateMutex
+                0x0000cf48       0xa0 d:/workspace/FreeRTOS/Source/queue.o
+                0x0000cf48                xQueueCreateMutex
+ .text.xQueueGiveMutexRecursive
+                0x0000cfe8       0x58 d:/workspace/FreeRTOS/Source/queue.o
+                0x0000cfe8                xQueueGiveMutexRecursive
+ .text.xQueueTakeMutexRecursive
+                0x0000d040       0x5c d:/workspace/FreeRTOS/Source/queue.o
+                0x0000d040                xQueueTakeMutexRecursive
+ .text.xQueueGenericSend
+                0x0000d09c      0x120 d:/workspace/FreeRTOS/Source/queue.o
+                0x0000d09c                xQueueGenericSend
+ .text.xQueueGenericSendFromISR
+                0x0000d1bc       0x90 d:/workspace/FreeRTOS/Source/queue.o
+                0x0000d1bc                xQueueGenericSendFromISR
+ .text.xQueueGenericReceive
+                0x0000d24c      0x188 d:/workspace/FreeRTOS/Source/queue.o
+                0x0000d24c                xQueueGenericReceive
+ .text.xQueueReceiveFromISR
+                0x0000d3d4       0x94 d:/workspace/FreeRTOS/Source/queue.o
+                0x0000d3d4                xQueueReceiveFromISR
+ .text.uxQueueMessagesWaiting
+                0x0000d468       0x24 d:/workspace/FreeRTOS/Source/queue.o
+                0x0000d468                uxQueueMessagesWaiting
+ .text.uxQueueMessagesWaitingFromISR
+                0x0000d48c       0x1c d:/workspace/FreeRTOS/Source/queue.o
+                0x0000d48c                uxQueueMessagesWaitingFromISR
+ .text.vQueueDelete
+                0x0000d4a8       0x28 d:/workspace/FreeRTOS/Source/queue.o
+                0x0000d4a8                vQueueDelete
+ .text.ucQueueGetQueueNumber
+                0x0000d4d0       0x1c d:/workspace/FreeRTOS/Source/queue.o
+                0x0000d4d0                ucQueueGetQueueNumber
+ .text.vQueueSetQueueNumber
+                0x0000d4ec       0x20 d:/workspace/FreeRTOS/Source/queue.o
+                0x0000d4ec                vQueueSetQueueNumber
+ .text.ucQueueGetQueueType
+                0x0000d50c       0x1c d:/workspace/FreeRTOS/Source/queue.o
+                0x0000d50c                ucQueueGetQueueType
+ .text.prvCopyDataToQueue
+                0x0000d528       0xc8 d:/workspace/FreeRTOS/Source/queue.o
+ .text.prvCopyDataFromQueue
+                0x0000d5f0       0x50 d:/workspace/FreeRTOS/Source/queue.o
+ .text.prvUnlockQueue
+                0x0000d640       0xa0 d:/workspace/FreeRTOS/Source/queue.o
+ .text.prvIsQueueEmpty
+                0x0000d6e0       0x2c d:/workspace/FreeRTOS/Source/queue.o
+ .text.xQueueIsQueueEmptyFromISR
+                0x0000d70c       0x24 d:/workspace/FreeRTOS/Source/queue.o
+                0x0000d70c                xQueueIsQueueEmptyFromISR
+ .text.prvIsQueueFull
+                0x0000d730       0x30 d:/workspace/FreeRTOS/Source/queue.o
+ .text.xQueueIsQueueFullFromISR
+                0x0000d760       0x28 d:/workspace/FreeRTOS/Source/queue.o
+                0x0000d760                xQueueIsQueueFullFromISR
+ .text.vQueueAddToRegistry
+                0x0000d788       0x64 d:/workspace/FreeRTOS/Source/queue.o
+                0x0000d788                vQueueAddToRegistry
+ .text.vQueueUnregisterQueue
+                0x0000d7ec       0x54 d:/workspace/FreeRTOS/Source/queue.o
+ .text          0x0000d840        0x0 d:/workspace/FreeRTOS/Source/tasks.o
+ .text.xTaskGenericCreate
+                0x0000d840      0x1b8 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000d840                xTaskGenericCreate
+ .text.vTaskDelete
+                0x0000d9f8       0xc0 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000d9f8                vTaskDelete
+ .text.vTaskDelayUntil
+                0x0000dab8       0xb0 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000dab8                vTaskDelayUntil
+ .text.vTaskDelay
+                0x0000db68       0x5c d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000db68                vTaskDelay
+ .text.uxTaskPriorityGet
+                0x0000dbc4       0x38 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000dbc4                uxTaskPriorityGet
+ .text.vTaskPrioritySet
+                0x0000dbfc      0x12c d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000dbfc                vTaskPrioritySet
+ .text.vTaskSuspend
+                0x0000dd28       0xc0 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000dd28                vTaskSuspend
+ .text.xTaskIsTaskSuspended
+                0x0000dde8       0x50 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000dde8                xTaskIsTaskSuspended
+ .text.vTaskResume
+                0x0000de38       0xac d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000de38                vTaskResume
+ .text.xTaskResumeFromISR
+                0x0000dee4       0xd4 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000dee4                xTaskResumeFromISR
+ .text.vTaskStartScheduler
+                0x0000dfb8       0x80 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000dfb8                vTaskStartScheduler
+ .text.vTaskEndScheduler
+                0x0000e038       0x20 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000e038                vTaskEndScheduler
+ .text.vTaskSuspendAll
+                0x0000e058       0x24 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000e058                vTaskSuspendAll
+ .text.xTaskResumeAll
+                0x0000e07c      0x154 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000e07c                xTaskResumeAll
+ .text.xTaskGetTickCount
+                0x0000e1d0       0x28 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000e1d0                xTaskGetTickCount
+ .text.xTaskGetTickCountFromISR
+                0x0000e1f8       0x38 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000e1f8                xTaskGetTickCountFromISR
+ .text.uxTaskGetNumberOfTasks
+                0x0000e230       0x18 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000e230                uxTaskGetNumberOfTasks
+ .text.vTaskList
+                0x0000e248      0x12c d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000e248                vTaskList
+ .text.vTaskGetRunTimeStats
+                0x0000e374      0x144 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000e374                vTaskGetRunTimeStats
+ .text.vTaskIncrementTick
+                0x0000e4b8      0x1cc d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000e4b8                vTaskIncrementTick
+ .text.vTaskSwitchContext
+                0x0000e684      0x180 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000e684                vTaskSwitchContext
+ .text.vTaskPlaceOnEventList
+                0x0000e804       0x78 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000e804                vTaskPlaceOnEventList
+ .text.xTaskRemoveFromEventList
+                0x0000e87c       0xc4 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000e87c                xTaskRemoveFromEventList
+ .text.vTaskSetTimeOutState
+                0x0000e940       0x30 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000e940                vTaskSetTimeOutState
+ .text.xTaskCheckForTimeOut
+                0x0000e970       0xa4 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000e970                xTaskCheckForTimeOut
+ .text.vTaskMissedYield
+                0x0000ea14       0x18 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000ea14                vTaskMissedYield
+ .text.uxTaskGetTaskNumber
+                0x0000ea2c       0x30 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000ea2c                uxTaskGetTaskNumber
+ .text.vTaskSetTaskNumber
+                0x0000ea5c       0x24 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000ea5c                vTaskSetTaskNumber
+ .text.prvIdleTask
+                0x0000ea80       0x10 d:/workspace/FreeRTOS/Source/tasks.o
+ .text.prvInitialiseTCBVariables
+                0x0000ea90       0x80 d:/workspace/FreeRTOS/Source/tasks.o
+ .text.prvInitialiseTaskLists
+                0x0000eb10       0xa4 d:/workspace/FreeRTOS/Source/tasks.o
+ .text.prvCheckTasksWaitingTermination
+                0x0000ebb4       0x98 d:/workspace/FreeRTOS/Source/tasks.o
+ .text.prvAddCurrentTaskToDelayedList
+                0x0000ec4c       0x8c d:/workspace/FreeRTOS/Source/tasks.o
+ .text.prvAllocateTCBAndStack
+                0x0000ecd8       0x70 d:/workspace/FreeRTOS/Source/tasks.o
+ .text.prvListTaskWithinSingleList
+                0x0000ed48       0xc4 d:/workspace/FreeRTOS/Source/tasks.o
+ .text.prvGenerateRunTimeStatsForTasksInList
+                0x0000ee0c      0x108 d:/workspace/FreeRTOS/Source/tasks.o
+ .text.usTaskCheckFreeStackSpace
+                0x0000ef14       0x38 d:/workspace/FreeRTOS/Source/tasks.o
+ .text.uxTaskGetStackHighWaterMark
+                0x0000ef4c       0x3c d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000ef4c                uxTaskGetStackHighWaterMark
+ .text.prvDeleteTCB
+                0x0000ef88       0x20 d:/workspace/FreeRTOS/Source/tasks.o
+ .text.xTaskGetCurrentTaskHandle
+                0x0000efa8       0x20 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000efa8                xTaskGetCurrentTaskHandle
+ .text.vTaskPriorityInherit
+                0x0000efc8       0xd8 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000efc8                vTaskPriorityInherit
+ .text.vTaskPriorityDisinherit
+                0x0000f0a0       0x90 d:/workspace/FreeRTOS/Source/tasks.o
+                0x0000f0a0                vTaskPriorityDisinherit
+ .text          0x0000f130        0x0 d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+ .text.pxPortInitialiseStack
+                0x0000f130       0x60 d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+                0x0000f130                pxPortInitialiseStack
+ .text.vPortSVCHandler
+                0x0000f190       0x20 d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+                0x0000f190                vPortSVCHandler
+ .text.vPortStartFirstTask
+                0x0000f1b0       0x14 d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+                0x0000f1b0                vPortStartFirstTask
+ .text.xPortStartScheduler
+                0x0000f1c4       0x54 d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+                0x0000f1c4                xPortStartScheduler
+ .text.vPortEndScheduler
+                0x0000f218        0xc d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+                0x0000f218                vPortEndScheduler
+ .text.vPortYieldFromISR
+                0x0000f224       0x18 d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+                0x0000f224                vPortYieldFromISR
+ .text.vPortEnterCritical
+                0x0000f23c       0x2c d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+                0x0000f23c                vPortEnterCritical
+ .text.vPortExitCritical
+                0x0000f268       0x38 d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+                0x0000f268                vPortExitCritical
+ .text.xPortPendSVHandler
+                0x0000f2a0       0x3c d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+                0x0000f2a0                xPortPendSVHandler
+ .text.xPortSysTickHandler
+                0x0000f2dc       0x38 d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+                0x0000f2dc                xPortSysTickHandler
+ .text.prvSetupTimerInterrupt
+                0x0000f314       0x28 d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+ .text          0x0000f33c        0x0 d:/workspace/FreeRTOS/Source/portable/MemMang/heap_2.o
+ .text.pvPortMalloc
+                0x0000f33c      0x1b0 d:/workspace/FreeRTOS/Source/portable/MemMang/heap_2.o
+                0x0000f33c                pvPortMalloc
+ .text.vPortFree
+                0x0000f4ec       0x88 d:/workspace/FreeRTOS/Source/portable/MemMang/heap_2.o
+                0x0000f4ec                vPortFree
+ .text.xPortGetFreeHeapSize
+                0x0000f574       0x18 d:/workspace/FreeRTOS/Source/portable/MemMang/heap_2.o
+                0x0000f574                xPortGetFreeHeapSize
+ .text.vPortInitialiseBlocks
+                0x0000f58c        0xc d:/workspace/FreeRTOS/Source/portable/MemMang/heap_2.o
+                0x0000f58c                vPortInitialiseBlocks
+ .text          0x0000f598        0x0 ./RTOSDemo/startup.o
+ .text.ResetISR
+                0x0000f598       0x78 ./RTOSDemo/startup.o
+                0x0000f598                ResetISR
+ .text.NmiSR    0x0000f610        0x8 ./RTOSDemo/startup.o
+ .text.FaultISR
+                0x0000f618        0x8 ./RTOSDemo/startup.o
+ .text.IntDefaultHandler
+                0x0000f620        0x8 ./RTOSDemo/startup.o
+ .text.uipprintf
+                0x0000f628       0x14 ./RTOSDemo/startup.o
+                0x0000f628                uipprintf
+ .text          0x0000f63c        0x0 ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+ .text.EthernetPacketGetInternal
+                0x0000f63c       0x84 ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+ .text.EthernetPacketPutInternal
+                0x0000f6c0       0x76 ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+ *fill*         0x0000f736        0x2 00
+ .text.EthernetInitExpClk
+                0x0000f738       0x14 ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+                0x0000f738                EthernetInitExpClk
+ .text.EthernetConfigSet
+                0x0000f74c       0x34 ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+                0x0000f74c                EthernetConfigSet
+ .text.EthernetConfigGet
+                0x0000f780       0x18 ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+                0x0000f780                EthernetConfigGet
+ .text.EthernetMACAddrSet
+                0x0000f798       0x36 ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+                0x0000f798                EthernetMACAddrSet
+ .text.EthernetMACAddrGet
+                0x0000f7ce       0x28 ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+                0x0000f7ce                EthernetMACAddrGet
+ .text.EthernetEnable
+                0x0000f7f6       0x22 ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+                0x0000f7f6                EthernetEnable
+ .text.EthernetDisable
+                0x0000f818       0x22 ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+                0x0000f818                EthernetDisable
+ .text.EthernetPacketAvail
+                0x0000f83a        0xe ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+                0x0000f83a                EthernetPacketAvail
+ .text.EthernetSpaceAvail
+                0x0000f848        0xc ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+                0x0000f848                EthernetSpaceAvail
+ .text.EthernetPacketGetNonBlocking
+                0x0000f854       0x10 ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+                0x0000f854                EthernetPacketGetNonBlocking
+ .text.EthernetPacketGet
+                0x0000f864        0xc ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+                0x0000f864                EthernetPacketGet
+ .text.EthernetPacketPutNonBlocking
+                0x0000f870       0x10 ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+                0x0000f870                EthernetPacketPutNonBlocking
+ .text.EthernetPacketPut
+                0x0000f880        0xc ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+                0x0000f880                EthernetPacketPut
+ .text.EthernetIntRegister
+                0x0000f88c       0x12 ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+                0x0000f88c                EthernetIntRegister
+ .text.EthernetIntUnregister
+                0x0000f89e       0x12 ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+                0x0000f89e                EthernetIntUnregister
+ .text.EthernetIntEnable
+                0x0000f8b0        0x8 ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+                0x0000f8b0                EthernetIntEnable
+ .text.EthernetIntDisable
+                0x0000f8b8        0xa ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+                0x0000f8b8                EthernetIntDisable
+ .text.EthernetIntStatus
+                0x0000f8c2        0xc ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+                0x0000f8c2                EthernetIntStatus
+ .text.EthernetIntClear
+                0x0000f8ce        0x4 ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+                0x0000f8ce                EthernetIntClear
+ .text.EthernetPHYWrite
+                0x0000f8d2       0x28 ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+                0x0000f8d2                EthernetPHYWrite
+ .text.EthernetPHYRead
+                0x0000f8fa       0x26 ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+                0x0000f8fa                EthernetPHYRead
+ .text.EthernetPHYPowerOff
+                0x0000f920       0x1e ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+                0x0000f920                EthernetPHYPowerOff
+ .text.EthernetPHYPowerOn
+                0x0000f93e       0x1e ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+                0x0000f93e                EthernetPHYPowerOn
+ .text          0x0000f95c        0x0 ./RTOSDemo/driverlib/gcc/libdriver.a(flash.o)
+ .text.FlashUsecGet
+                0x0000f95c        0xc ./RTOSDemo/driverlib/gcc/libdriver.a(flash.o)
+                0x0000f95c                FlashUsecGet
+ .text.FlashUsecSet
+                0x0000f968        0xc ./RTOSDemo/driverlib/gcc/libdriver.a(flash.o)
+                0x0000f968                FlashUsecSet
+ .text.FlashErase
+                0x0000f974       0x3c ./RTOSDemo/driverlib/gcc/libdriver.a(flash.o)
+                0x0000f974                FlashErase
+ .text.FlashProgram
+                0x0000f9b0       0xa8 ./RTOSDemo/driverlib/gcc/libdriver.a(flash.o)
+                0x0000f9b0                FlashProgram
+ .text.FlashProtectGet
+                0x0000fa58       0x84 ./RTOSDemo/driverlib/gcc/libdriver.a(flash.o)
+                0x0000fa58                FlashProtectGet
+ .text.FlashProtectSet
+                0x0000fadc      0x104 ./RTOSDemo/driverlib/gcc/libdriver.a(flash.o)
+                0x0000fadc                FlashProtectSet
+ .text.FlashProtectSave
+                0x0000fbe0       0x50 ./RTOSDemo/driverlib/gcc/libdriver.a(flash.o)
+                0x0000fbe0                FlashProtectSave
+ .text.FlashUserGet
+                0x0000fc30       0x44 ./RTOSDemo/driverlib/gcc/libdriver.a(flash.o)
+                0x0000fc30                FlashUserGet
+ .text.FlashUserSet
+                0x0000fc74       0x3c ./RTOSDemo/driverlib/gcc/libdriver.a(flash.o)
+                0x0000fc74                FlashUserSet
+ .text.FlashUserSave
+                0x0000fcb0       0x68 ./RTOSDemo/driverlib/gcc/libdriver.a(flash.o)
+                0x0000fcb0                FlashUserSave
+ .text.FlashIntRegister
+                0x0000fd18       0x14 ./RTOSDemo/driverlib/gcc/libdriver.a(flash.o)
+                0x0000fd18                FlashIntRegister
+ .text.FlashIntUnregister
+                0x0000fd2c       0x12 ./RTOSDemo/driverlib/gcc/libdriver.a(flash.o)
+                0x0000fd2c                FlashIntUnregister
+ *fill*         0x0000fd3e        0x2 00
+ .text.FlashIntEnable
+                0x0000fd40       0x10 ./RTOSDemo/driverlib/gcc/libdriver.a(flash.o)
+                0x0000fd40                FlashIntEnable
+ .text.FlashIntDisable
+                0x0000fd50       0x10 ./RTOSDemo/driverlib/gcc/libdriver.a(flash.o)
+                0x0000fd50                FlashIntDisable
+ .text.FlashIntStatus
+                0x0000fd60       0x18 ./RTOSDemo/driverlib/gcc/libdriver.a(flash.o)
+                0x0000fd60                FlashIntStatus
+ .text.FlashIntClear
+                0x0000fd78        0xc ./RTOSDemo/driverlib/gcc/libdriver.a(flash.o)
+                0x0000fd78                FlashIntClear
+ .text          0x0000fd84        0x0 ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOGetIntNumber
+                0x0000fd84       0xf4 ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIODirModeSet
+                0x0000fe78       0x2e ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x0000fe78                GPIODirModeSet
+ .text.GPIODirModeGet
+                0x0000fea6       0x24 ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x0000fea6                GPIODirModeGet
+ .text.GPIOIntTypeSet
+                0x0000feca       0x48 ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x0000feca                GPIOIntTypeSet
+ .text.GPIOIntTypeGet
+                0x0000ff12       0x32 ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x0000ff12                GPIOIntTypeGet
+ .text.GPIOPadConfigSet
+                0x0000ff44       0xc8 ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x0000ff44                GPIOPadConfigSet
+ .text.GPIOPadConfigGet
+                0x0001000c       0x78 ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x0001000c                GPIOPadConfigGet
+ .text.GPIOPinIntEnable
+                0x00010084        0xc ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x00010084                GPIOPinIntEnable
+ .text.GPIOPinIntDisable
+                0x00010090        0xe ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x00010090                GPIOPinIntDisable
+ .text.GPIOPinIntStatus
+                0x0001009e        0xe ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x0001009e                GPIOPinIntStatus
+ .text.GPIOPinIntClear
+                0x000100ac        0x6 ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x000100ac                GPIOPinIntClear
+ .text.GPIOPortIntRegister
+                0x000100b2       0x1a ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x000100b2                GPIOPortIntRegister
+ .text.GPIOPortIntUnregister
+                0x000100cc       0x16 ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x000100cc                GPIOPortIntUnregister
+ .text.GPIOPinRead
+                0x000100e2        0x6 ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x000100e2                GPIOPinRead
+ .text.GPIOPinWrite
+                0x000100e8        0x6 ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x000100e8                GPIOPinWrite
+ .text.GPIOPinTypeADC
+                0x000100ee       0x1c ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x000100ee                GPIOPinTypeADC
+ .text.GPIOPinTypeCAN
+                0x0001010a       0x1c ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x0001010a                GPIOPinTypeCAN
+ .text.GPIOPinTypeComparator
+                0x00010126       0x1c ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x00010126                GPIOPinTypeComparator
+ .text.GPIOPinTypeGPIOInput
+                0x00010142       0x1c ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x00010142                GPIOPinTypeGPIOInput
+ .text.GPIOPinTypeGPIOOutput
+                0x0001015e       0x1c ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x0001015e                GPIOPinTypeGPIOOutput
+ .text.GPIOPinTypeGPIOOutputOD
+                0x0001017a       0x1c ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x0001017a                GPIOPinTypeGPIOOutputOD
+ .text.GPIOPinTypeI2C
+                0x00010196       0x1c ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x00010196                GPIOPinTypeI2C
+ .text.GPIOPinTypePWM
+                0x000101b2       0x1c ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x000101b2                GPIOPinTypePWM
+ .text.GPIOPinTypeQEI
+                0x000101ce       0x1c ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x000101ce                GPIOPinTypeQEI
+ .text.GPIOPinTypeSSI
+                0x000101ea       0x1c ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x000101ea                GPIOPinTypeSSI
+ .text.GPIOPinTypeTimer
+                0x00010206       0x1c ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x00010206                GPIOPinTypeTimer
+ .text.GPIOPinTypeUART
+                0x00010222       0x1c ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x00010222                GPIOPinTypeUART
+ .text.GPIOPinTypeUSBDigital
+                0x0001023e       0x1c ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x0001023e                GPIOPinTypeUSBDigital
+ .text.GPIOPinTypeUSBAnalog
+                0x0001025a       0x1c ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x0001025a                GPIOPinTypeUSBAnalog
+ .text.GPIOPinTypeI2S
+                0x00010276       0x1c ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x00010276                GPIOPinTypeI2S
+ .text.GPIOPinTypeEthernetLED
+                0x00010292       0x1c ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x00010292                GPIOPinTypeEthernetLED
+ .text.GPIOPinTypeEPI
+                0x000102ae       0x1c ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x000102ae                GPIOPinTypeEPI
+ *fill*         0x000102ca        0x2 00
+ .text.GPIOPinConfigure
+                0x000102cc       0x4c ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+                0x000102cc                GPIOPinConfigure
+ .text          0x00010318        0x0 ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+ .text.I2STxEnable
+                0x00010318       0x12 ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x00010318                I2STxEnable
+ .text.I2STxDisable
+                0x0001032a        0xe ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x0001032a                I2STxDisable
+ .text.I2STxDataPut
+                0x00010338        0xa ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x00010338                I2STxDataPut
+ .text.I2STxDataPutNonBlocking
+                0x00010342       0x10 ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x00010342                I2STxDataPutNonBlocking
+ .text.I2STxConfigSet
+                0x00010352       0x1a ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x00010352                I2STxConfigSet
+ .text.I2STxFIFOLimitSet
+                0x0001036c        0x4 ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x0001036c                I2STxFIFOLimitSet
+ .text.I2STxFIFOLimitGet
+                0x00010370        0x4 ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x00010370                I2STxFIFOLimitGet
+ .text.I2STxFIFOLevelGet
+                0x00010374        0x4 ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x00010374                I2STxFIFOLevelGet
+ .text.I2SRxEnable
+                0x00010378       0x14 ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x00010378                I2SRxEnable
+ .text.I2SRxDisable
+                0x0001038c        0xe ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x0001038c                I2SRxDisable
+ .text.I2SRxDataGet
+                0x0001039a       0x10 ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x0001039a                I2SRxDataGet
+ .text.I2SRxDataGetNonBlocking
+                0x000103aa       0x14 ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x000103aa                I2SRxDataGetNonBlocking
+ .text.I2SRxConfigSet
+                0x000103be       0x36 ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x000103be                I2SRxConfigSet
+ .text.I2SRxFIFOLimitSet
+                0x000103f4        0x6 ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x000103f4                I2SRxFIFOLimitSet
+ .text.I2SRxFIFOLimitGet
+                0x000103fa        0xe ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x000103fa                I2SRxFIFOLimitGet
+ .text.I2SRxFIFOLevelGet
+                0x00010408        0x6 ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x00010408                I2SRxFIFOLevelGet
+ .text.I2STxRxEnable
+                0x0001040e       0x16 ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x0001040e                I2STxRxEnable
+ .text.I2STxRxDisable
+                0x00010424        0xe ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x00010424                I2STxRxDisable
+ .text.I2STxRxConfigSet
+                0x00010432       0x48 ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x00010432                I2STxRxConfigSet
+ .text.I2SMasterClockSelect
+                0x0001047a       0x10 ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x0001047a                I2SMasterClockSelect
+ .text.I2SIntEnable
+                0x0001048a        0xc ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x0001048a                I2SIntEnable
+ .text.I2SIntDisable
+                0x00010496        0xe ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x00010496                I2SIntDisable
+ .text.I2SIntStatus
+                0x000104a4        0xe ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x000104a4                I2SIntStatus
+ .text.I2SIntClear
+                0x000104b2        0x6 ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x000104b2                I2SIntClear
+ .text.I2SIntRegister
+                0x000104b8       0x12 ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x000104b8                I2SIntRegister
+ .text.I2SIntUnregister
+                0x000104ca       0x12 ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+                0x000104ca                I2SIntUnregister
+ .text          0x000104dc        0x0 ./RTOSDemo/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntDefaultHandler
+                0x000104dc        0x2 ./RTOSDemo/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntMasterEnable
+                0x000104de        0xa ./RTOSDemo/driverlib/gcc/libdriver.a(interrupt.o)
+                0x000104de                IntMasterEnable
+ .text.IntMasterDisable
+                0x000104e8        0xa ./RTOSDemo/driverlib/gcc/libdriver.a(interrupt.o)
+                0x000104e8                IntMasterDisable
+ *fill*         0x000104f2        0x2 00
+ .text.IntRegister
+                0x000104f4       0x30 ./RTOSDemo/driverlib/gcc/libdriver.a(interrupt.o)
+                0x000104f4                IntRegister
+ .text.IntUnregister
+                0x00010524       0x14 ./RTOSDemo/driverlib/gcc/libdriver.a(interrupt.o)
+                0x00010524                IntUnregister
+ .text.IntPriorityGroupingSet
+                0x00010538       0x1c ./RTOSDemo/driverlib/gcc/libdriver.a(interrupt.o)
+                0x00010538                IntPriorityGroupingSet
+ .text.IntPriorityGroupingGet
+                0x00010554       0x24 ./RTOSDemo/driverlib/gcc/libdriver.a(interrupt.o)
+                0x00010554                IntPriorityGroupingGet
+ .text.IntPrioritySet
+                0x00010578       0x28 ./RTOSDemo/driverlib/gcc/libdriver.a(interrupt.o)
+                0x00010578                IntPrioritySet
+ .text.IntPriorityGet
+                0x000105a0       0x1c ./RTOSDemo/driverlib/gcc/libdriver.a(interrupt.o)
+                0x000105a0                IntPriorityGet
+ .text.IntEnable
+                0x000105bc       0x70 ./RTOSDemo/driverlib/gcc/libdriver.a(interrupt.o)
+                0x000105bc                IntEnable
+ .text.IntDisable
+                0x0001062c       0x70 ./RTOSDemo/driverlib/gcc/libdriver.a(interrupt.o)
+                0x0001062c                IntDisable
+ .text.IntPendSet
+                0x0001069c       0x60 ./RTOSDemo/driverlib/gcc/libdriver.a(interrupt.o)
+                0x0001069c                IntPendSet
+ .text.IntPendClear
+                0x000106fc       0x50 ./RTOSDemo/driverlib/gcc/libdriver.a(interrupt.o)
+                0x000106fc                IntPendClear
+ .text.IntPriorityMaskSet
+                0x0001074c        0x4 ./RTOSDemo/driverlib/gcc/libdriver.a(interrupt.o)
+                0x0001074c                IntPriorityMaskSet
+ .text.IntPriorityMaskGet
+                0x00010750        0x4 ./RTOSDemo/driverlib/gcc/libdriver.a(interrupt.o)
+                0x00010750                IntPriorityMaskGet
+ .text          0x00010754        0x0 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlSRAMSizeGet
+                0x00010754       0x14 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010754                SysCtlSRAMSizeGet
+ .text.SysCtlFlashSizeGet
+                0x00010768       0x14 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010768                SysCtlFlashSizeGet
+ .text.SysCtlPinPresent
+                0x0001077c       0x14 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x0001077c                SysCtlPinPresent
+ .text.SysCtlPeripheralPresent
+                0x00010790       0x44 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010790                SysCtlPeripheralPresent
+ .text.SysCtlPeripheralReset
+                0x000107d4       0x40 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x000107d4                SysCtlPeripheralReset
+ .text.SysCtlPeripheralEnable
+                0x00010814       0x20 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010814                SysCtlPeripheralEnable
+ .text.SysCtlPeripheralDisable
+                0x00010834       0x24 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010834                SysCtlPeripheralDisable
+ .text.SysCtlPeripheralSleepEnable
+                0x00010858       0x20 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010858                SysCtlPeripheralSleepEnable
+ .text.SysCtlPeripheralSleepDisable
+                0x00010878       0x24 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010878                SysCtlPeripheralSleepDisable
+ .text.SysCtlPeripheralDeepSleepEnable
+                0x0001089c       0x20 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x0001089c                SysCtlPeripheralDeepSleepEnable
+ .text.SysCtlPeripheralDeepSleepDisable
+                0x000108bc       0x24 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x000108bc                SysCtlPeripheralDeepSleepDisable
+ .text.SysCtlPeripheralClockGating
+                0x000108e0       0x1c ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x000108e0                SysCtlPeripheralClockGating
+ .text.SysCtlIntRegister
+                0x000108fc       0x14 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x000108fc                SysCtlIntRegister
+ .text.SysCtlIntUnregister
+                0x00010910       0x12 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010910                SysCtlIntUnregister
+ *fill*         0x00010922        0x2 00
+ .text.SysCtlIntEnable
+                0x00010924       0x10 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010924                SysCtlIntEnable
+ .text.SysCtlIntDisable
+                0x00010934       0x10 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010934                SysCtlIntDisable
+ .text.SysCtlIntClear
+                0x00010944        0xc ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010944                SysCtlIntClear
+ .text.SysCtlIntStatus
+                0x00010950       0x18 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010950                SysCtlIntStatus
+ .text.SysCtlLDOSet
+                0x00010968        0xc ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010968                SysCtlLDOSet
+ .text.SysCtlLDOGet
+                0x00010974        0xc ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010974                SysCtlLDOGet
+ .text.SysCtlLDOConfigSet
+                0x00010980        0xc ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010980                SysCtlLDOConfigSet
+ .text.SysCtlReset
+                0x0001098c       0x10 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x0001098c                SysCtlReset
+ .text.SysCtlSleep
+                0x0001099c        0x4 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x0001099c                SysCtlSleep
+ .text.SysCtlDeepSleep
+                0x000109a0       0x20 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x000109a0                SysCtlDeepSleep
+ .text.SysCtlResetCauseGet
+                0x000109c0        0xc ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x000109c0                SysCtlResetCauseGet
+ .text.SysCtlResetCauseClear
+                0x000109cc       0x10 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x000109cc                SysCtlResetCauseClear
+ .text.SysCtlBrownOutConfigSet
+                0x000109dc       0x10 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x000109dc                SysCtlBrownOutConfigSet
+ .text.SysCtlDelay
+                0x000109ec        0x6 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x000109ec                SysCtlDelay
+ *fill*         0x000109f2        0x2 00
+ .text.SysCtlClockSet
+                0x000109f4      0x158 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x000109f4                SysCtlClockSet
+ .text.SysCtlClockGet
+                0x00010b4c      0x1dc ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010b4c                SysCtlClockGet
+ .text.SysCtlPWMClockSet
+                0x00010d28       0x14 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010d28                SysCtlPWMClockSet
+ .text.SysCtlPWMClockGet
+                0x00010d3c       0x18 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010d3c                SysCtlPWMClockGet
+ .text.SysCtlADCSpeedSet
+                0x00010d54       0x20 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010d54                SysCtlADCSpeedSet
+ .text.SysCtlADCSpeedGet
+                0x00010d74       0x10 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010d74                SysCtlADCSpeedGet
+ .text.SysCtlIOSCVerificationSet
+                0x00010d84       0x1c ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010d84                SysCtlIOSCVerificationSet
+ .text.SysCtlMOSCVerificationSet
+                0x00010da0       0x1c ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010da0                SysCtlMOSCVerificationSet
+ .text.SysCtlPLLVerificationSet
+                0x00010dbc       0x1c ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010dbc                SysCtlPLLVerificationSet
+ .text.SysCtlClkVerificationClear
+                0x00010dd8       0x10 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010dd8                SysCtlClkVerificationClear
+ .text.SysCtlGPIOAHBEnable
+                0x00010de8       0x14 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010de8                SysCtlGPIOAHBEnable
+ .text.SysCtlGPIOAHBDisable
+                0x00010dfc       0x14 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010dfc                SysCtlGPIOAHBDisable
+ .text.SysCtlUSBPLLEnable
+                0x00010e10       0x10 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010e10                SysCtlUSBPLLEnable
+ .text.SysCtlUSBPLLDisable
+                0x00010e20       0x10 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010e20                SysCtlUSBPLLDisable
+ .text.SysCtlI2SMClkSet
+                0x00010e30       0xe4 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00010e30                SysCtlI2SMClkSet
+ .text          0x00010f14        0x0 ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+ .text.TimerEnable
+                0x00010f14       0x12 ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x00010f14                TimerEnable
+ .text.TimerDisable
+                0x00010f26       0x12 ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x00010f26                TimerDisable
+ .text.TimerConfigure
+                0x00010f38       0x20 ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x00010f38                TimerConfigure
+ .text.TimerControlLevel
+                0x00010f58       0x20 ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x00010f58                TimerControlLevel
+ .text.TimerControlTrigger
+                0x00010f78       0x20 ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x00010f78                TimerControlTrigger
+ .text.TimerControlEvent
+                0x00010f98       0x1c ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x00010f98                TimerControlEvent
+ .text.TimerControlStall
+                0x00010fb4       0x20 ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x00010fb4                TimerControlStall
+ .text.TimerControlWaitOnTrigger
+                0x00010fd4       0x34 ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x00010fd4                TimerControlWaitOnTrigger
+ .text.TimerRTCEnable
+                0x00011008        0xa ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x00011008                TimerRTCEnable
+ .text.TimerRTCDisable
+                0x00011012        0xa ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x00011012                TimerRTCDisable
+ .text.TimerPrescaleSet
+                0x0001101c       0x12 ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x0001101c                TimerPrescaleSet
+ .text.TimerPrescaleGet
+                0x0001102e        0xa ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x0001102e                TimerPrescaleGet
+ .text.TimerPrescaleMatchSet
+                0x00011038       0x12 ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x00011038                TimerPrescaleMatchSet
+ .text.TimerPrescaleMatchGet
+                0x0001104a        0xa ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x0001104a                TimerPrescaleMatchGet
+ .text.TimerLoadSet
+                0x00011054       0x12 ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x00011054                TimerLoadSet
+ .text.TimerLoadGet
+                0x00011066        0xa ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x00011066                TimerLoadGet
+ .text.TimerValueGet
+                0x00011070        0xa ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x00011070                TimerValueGet
+ .text.TimerMatchSet
+                0x0001107a       0x12 ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x0001107a                TimerMatchSet
+ .text.TimerMatchGet
+                0x0001108c        0xa ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x0001108c                TimerMatchGet
+ *fill*         0x00011096        0x2 00
+ .text.TimerIntRegister
+                0x00011098       0x60 ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x00011098                TimerIntRegister
+ .text.TimerIntUnregister
+                0x000110f8       0x5c ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x000110f8                TimerIntUnregister
+ .text.TimerIntEnable
+                0x00011154        0x8 ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x00011154                TimerIntEnable
+ .text.TimerIntDisable
+                0x0001115c        0xa ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x0001115c                TimerIntDisable
+ .text.TimerIntStatus
+                0x00011166        0xa ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x00011166                TimerIntStatus
+ .text.TimerIntClear
+                0x00011170        0x4 ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x00011170                TimerIntClear
+ .text.TimerQuiesce
+                0x00011174       0x3c ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+                0x00011174                TimerQuiesce
+ .text          0x000111b0        0x0 ./RTOSDemo/driverlib/gcc/libdriver.a(cpu.o)
+ .text.CPUcpsid
+                0x000111b0        0x8 ./RTOSDemo/driverlib/gcc/libdriver.a(cpu.o)
+                0x000111b0                CPUcpsid
+ .text.CPUprimask
+                0x000111b8        0x6 ./RTOSDemo/driverlib/gcc/libdriver.a(cpu.o)
+                0x000111b8                CPUprimask
+ .text.CPUcpsie
+                0x000111be        0x8 ./RTOSDemo/driverlib/gcc/libdriver.a(cpu.o)
+                0x000111be                CPUcpsie
+ .text.CPUwfi   0x000111c6        0x4 ./RTOSDemo/driverlib/gcc/libdriver.a(cpu.o)
+                0x000111c6                CPUwfi
+ .text.CPUbasepriSet
+                0x000111ca        0x6 ./RTOSDemo/driverlib/gcc/libdriver.a(cpu.o)
+                0x000111ca                CPUbasepriSet
+ .text.CPUbasepriGet
+                0x000111d0        0x6 ./RTOSDemo/driverlib/gcc/libdriver.a(cpu.o)
+                0x000111d0                CPUbasepriGet
+ *fill*         0x000111d6        0x2 00
+ .text          0x000111d8       0x5c d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcmp.o)
+                0x000111d8                memcmp
+ .text          0x00011234       0xf0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+                0x00011234                memcpy
+ .text          0x00011324       0x8c d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+                0x00011324                memset
+ .text          0x000113b0       0x48 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcat.o)
+                0x000113b0                strcat
+ .text          0x000113f8       0xf0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strchr.o)
+                0x000113f8                strchr
+ .text          0x000114e8       0xbc d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcpy.o)
+                0x000114e8                strcpy
+ .text          0x000115a4       0x60 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strlen.o)
+                0x000115a4                strlen
+ .text          0x00011604       0xa8 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strncmp.o)
+                0x00011604                strncmp
+ .text          0x000116ac       0x74 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strncpy.o)
+                0x000116ac                strncpy
+ .text          0x00011720       0x28 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strrchr.o)
+                0x00011720                strrchr
+ .text          0x00011748      0x4c8 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strstr.o)
+                0x000119fc                strstr
+ .text          0x00011c10       0x88 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memchr.o)
+                0x00011c10                memchr
+ *(.rodata*)
+ .rodata.pucBasicBitmap
+                0x00011c98      0xc84 ./RTOSDemo/main.o
+                0x00011c98                pucBasicBitmap
+ .rodata.pucGrLibBitmap
+                0x0001291c      0x6a8 ./RTOSDemo/main.o
+                0x0001291c                pucGrLibBitmap
+ .rodata        0x00012fc4      0x10c ./RTOSDemo/main.o
+ .rodata.pcWelcomeMessage
+                0x000130d0        0x4 ./RTOSDemo/main.o
+                0x000130d0                pcWelcomeMessage
+ .rodata.g_pucFont
+                0x000130d4      0x1dc ./RTOSDemo/evalbot_drivers/display96x16x1.o
+ .rodata.g_pucRITInit
+                0x000132b0       0x30 ./RTOSDemo/evalbot_drivers/display96x16x1.o
+ .rodata.g_pucRITRow1
+                0x000132e0        0x8 ./RTOSDemo/evalbot_drivers/display96x16x1.o
+ .rodata.g_pucRITRow2
+                0x000132e8        0x8 ./RTOSDemo/evalbot_drivers/display96x16x1.o
+ .rodata        0x000132f0       0x10 ./RTOSDemo/evalbot_drivers/wav.o
+ .rodata        0x00013300       0x1c ./RTOSDemo/driverlib/ustdlib.o
+ .rodata.g_pcHex
+                0x0001331c        0x4 ./RTOSDemo/driverlib/ustdlib.o
+ .rodata.g_psDaysToMonth
+                0x00013320       0x18 ./RTOSDemo/driverlib/ustdlib.o
+ .rodata        0x00013338       0x30 d:/workspace/FreeRTOS/Demo/Common/Minimal/BlockQ.o
+ .rodata        0x00013368       0x24 d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+ .rodata.uxMaxNumberOfExtraTasksRunning
+                0x0001338c        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+ .rodata        0x00013390       0x18 d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+ .rodata        0x000133a8        0x8 d:/workspace/FreeRTOS/Demo/Common/Minimal/integer.o
+ .rodata        0x000133b0       0x20 d:/workspace/FreeRTOS/Demo/Common/Minimal/PollQ.o
+ .rodata        0x000133d0       0x40 d:/workspace/FreeRTOS/Demo/Common/Minimal/semtest.o
+ .rodata        0x00013410       0x40 d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+ .rodata        0x00013450       0x34 d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+ .rodata        0x00013484       0x28 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .rodata        0x000134ac       0x48 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .rodata        0x000134f4       0x10 ./RTOSDemo/webserver/uIP_Task.o
+ .rodata        0x00013504        0x4 ./RTOSDemo/webserver/emac.o
+ .rodata        0x00013508      0x154 ./RTOSDemo/webserver/httpd-cgi.o
+ .rodata.file   0x0001365c        0x8 ./RTOSDemo/webserver/httpd-cgi.o
+ .rodata.tcp    0x00013664        0x8 ./RTOSDemo/webserver/httpd-cgi.o
+ .rodata.net    0x0001366c        0x8 ./RTOSDemo/webserver/httpd-cgi.o
+ .rodata.rtos   0x00013674        0x8 ./RTOSDemo/webserver/httpd-cgi.o
+ .rodata.run    0x0001367c        0x8 ./RTOSDemo/webserver/httpd-cgi.o
+ .rodata.io     0x00013684        0x8 ./RTOSDemo/webserver/httpd-cgi.o
+ .rodata.closed
+                0x0001368c        0x8 ./RTOSDemo/webserver/httpd-cgi.o
+ .rodata.syn_rcvd
+                0x00013694        0xc ./RTOSDemo/webserver/httpd-cgi.o
+ .rodata.syn_sent
+                0x000136a0        0xc ./RTOSDemo/webserver/httpd-cgi.o
+ .rodata.established
+                0x000136ac        0xc ./RTOSDemo/webserver/httpd-cgi.o
+ .rodata.fin_wait_1
+                0x000136b8        0xc ./RTOSDemo/webserver/httpd-cgi.o
+ .rodata.fin_wait_2
+                0x000136c4        0xc ./RTOSDemo/webserver/httpd-cgi.o
+ .rodata.closing
+                0x000136d0        0x8 ./RTOSDemo/webserver/httpd-cgi.o
+ .rodata.time_wait
+                0x000136d8        0xc ./RTOSDemo/webserver/httpd-cgi.o
+ .rodata.last_ack
+                0x000136e4        0xc ./RTOSDemo/webserver/httpd-cgi.o
+ .rodata.data_404_html
+                0x000136f0       0xac ./RTOSDemo/webserver/httpd-fs.o
+ .rodata.data_index_html
+                0x0001379c      0x1a4 ./RTOSDemo/webserver/httpd-fs.o
+ .rodata.data_index_shtml
+                0x00013940      0x348 ./RTOSDemo/webserver/httpd-fs.o
+ .rodata.data_io_shtml
+                0x00013c88      0x330 ./RTOSDemo/webserver/httpd-fs.o
+ .rodata.data_runtime_shtml
+                0x00013fb8      0x340 ./RTOSDemo/webserver/httpd-fs.o
+ .rodata.data_stats_shtml
+                0x000142f8      0x55c ./RTOSDemo/webserver/httpd-fs.o
+ .rodata.data_tcp_shtml
+                0x00014854      0x2d8 ./RTOSDemo/webserver/httpd-fs.o
+ .rodata.file_404_html
+                0x00014b2c       0x14 ./RTOSDemo/webserver/httpd-fs.o
+                0x00014b2c                file_404_html
+ .rodata.file_index_html
+                0x00014b40       0x14 ./RTOSDemo/webserver/httpd-fs.o
+                0x00014b40                file_index_html
+ .rodata.file_index_shtml
+                0x00014b54       0x14 ./RTOSDemo/webserver/httpd-fs.o
+                0x00014b54                file_index_shtml
+ .rodata.file_io_shtml
+                0x00014b68       0x14 ./RTOSDemo/webserver/httpd-fs.o
+                0x00014b68                file_io_shtml
+ .rodata.file_runtime_shtml
+                0x00014b7c       0x14 ./RTOSDemo/webserver/httpd-fs.o
+                0x00014b7c                file_runtime_shtml
+ .rodata.file_stats_shtml
+                0x00014b90       0x14 ./RTOSDemo/webserver/httpd-fs.o
+                0x00014b90                file_stats_shtml
+ .rodata.file_tcp_shtml
+                0x00014ba4       0x14 ./RTOSDemo/webserver/httpd-fs.o
+                0x00014ba4                file_tcp_shtml
+ .rodata.http_http
+                0x00014bb8        0x8 ./RTOSDemo/webserver/http-strings.o
+                0x00014bb8                http_http
+ .rodata.http_200
+                0x00014bc0        0x8 ./RTOSDemo/webserver/http-strings.o
+                0x00014bc0                http_200
+ .rodata.http_301
+                0x00014bc8        0x8 ./RTOSDemo/webserver/http-strings.o
+                0x00014bc8                http_301
+ .rodata.http_302
+                0x00014bd0        0x8 ./RTOSDemo/webserver/http-strings.o
+                0x00014bd0                http_302
+ .rodata.http_get
+                0x00014bd8        0x8 ./RTOSDemo/webserver/http-strings.o
+                0x00014bd8                http_get
+ .rodata.http_10
+                0x00014be0        0xc ./RTOSDemo/webserver/http-strings.o
+                0x00014be0                http_10
+ .rodata.http_11
+                0x00014bec        0xc ./RTOSDemo/webserver/http-strings.o
+                0x00014bec                http_11
+ .rodata.http_content_type
+                0x00014bf8       0x10 ./RTOSDemo/webserver/http-strings.o
+                0x00014bf8                http_content_type
+ .rodata.http_texthtml
+                0x00014c08        0xc ./RTOSDemo/webserver/http-strings.o
+                0x00014c08                http_texthtml
+ .rodata.http_location
+                0x00014c14        0xc ./RTOSDemo/webserver/http-strings.o
+                0x00014c14                http_location
+ .rodata.http_host
+                0x00014c20        0x8 ./RTOSDemo/webserver/http-strings.o
+                0x00014c20                http_host
+ .rodata.http_crnl
+                0x00014c28        0x4 ./RTOSDemo/webserver/http-strings.o
+                0x00014c28                http_crnl
+ .rodata.http_index_html
+                0x00014c2c        0xc ./RTOSDemo/webserver/http-strings.o
+                0x00014c2c                http_index_html
+ .rodata.http_404_html
+                0x00014c38        0xc ./RTOSDemo/webserver/http-strings.o
+                0x00014c38                http_404_html
+ .rodata.http_referer
+                0x00014c44        0xc ./RTOSDemo/webserver/http-strings.o
+                0x00014c44                http_referer
+ .rodata.http_header_200
+                0x00014c50       0x54 ./RTOSDemo/webserver/http-strings.o
+                0x00014c50                http_header_200
+ .rodata.http_header_404
+                0x00014ca4       0x5c ./RTOSDemo/webserver/http-strings.o
+                0x00014ca4                http_header_404
+ .rodata.http_content_type_plain
+                0x00014d00       0x20 ./RTOSDemo/webserver/http-strings.o
+                0x00014d00                http_content_type_plain
+ .rodata.http_content_type_html
+                0x00014d20       0x1c ./RTOSDemo/webserver/http-strings.o
+                0x00014d20                http_content_type_html
+ .rodata.http_content_type_css
+                0x00014d3c       0x1c ./RTOSDemo/webserver/http-strings.o
+                0x00014d3c                http_content_type_css
+ .rodata.http_content_type_text
+                0x00014d58       0x1c ./RTOSDemo/webserver/http-strings.o
+                0x00014d58                http_content_type_text
+ .rodata.http_content_type_png
+                0x00014d74       0x1c ./RTOSDemo/webserver/http-strings.o
+                0x00014d74                http_content_type_png
+ .rodata.http_content_type_gif
+                0x00014d90       0x1c ./RTOSDemo/webserver/http-strings.o
+                0x00014d90                http_content_type_gif
+ .rodata.http_content_type_jpg
+                0x00014dac       0x20 ./RTOSDemo/webserver/http-strings.o
+                0x00014dac                http_content_type_jpg
+ .rodata.http_content_type_binary
+                0x00014dcc       0x2c ./RTOSDemo/webserver/http-strings.o
+                0x00014dcc                http_content_type_binary
+ .rodata.http_html
+                0x00014df8        0x8 ./RTOSDemo/webserver/http-strings.o
+                0x00014df8                http_html
+ .rodata.http_shtml
+                0x00014e00        0x8 ./RTOSDemo/webserver/http-strings.o
+                0x00014e00                http_shtml
+ .rodata.http_htm
+                0x00014e08        0x8 ./RTOSDemo/webserver/http-strings.o
+                0x00014e08                http_htm
+ .rodata.http_css
+                0x00014e10        0x8 ./RTOSDemo/webserver/http-strings.o
+                0x00014e10                http_css
+ .rodata.http_png
+                0x00014e18        0x8 ./RTOSDemo/webserver/http-strings.o
+                0x00014e18                http_png
+ .rodata.http_gif
+                0x00014e20        0x8 ./RTOSDemo/webserver/http-strings.o
+                0x00014e20                http_gif
+ .rodata.http_jpg
+                0x00014e28        0x8 ./RTOSDemo/webserver/http-strings.o
+                0x00014e28                http_jpg
+ .rodata.http_text
+                0x00014e30        0x8 ./RTOSDemo/webserver/http-strings.o
+                0x00014e30                http_text
+ .rodata.http_txt
+                0x00014e38        0x8 ./RTOSDemo/webserver/http-strings.o
+                0x00014e38                http_txt
+ .rodata.broadcast_ethaddr
+                0x00014e40        0x8 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+ .rodata.broadcast_ipaddr
+                0x00014e48        0x4 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+ .rodata        0x00014e4c       0x14 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+ .rodata.all_ones_addr
+                0x00014e60        0x4 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+ .rodata.all_zeroes_addr
+                0x00014e64        0x4 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+ .rodata        0x00014e68       0x50 d:/workspace/FreeRTOS/Source/tasks.o
+ .rodata.ucExpectedStackBytes.5777
+                0x00014eb8       0x14 d:/workspace/FreeRTOS/Source/tasks.o
+ .rodata.ulKernelPriority
+                0x00014ecc        0x4 d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+                0x00014ecc                ulKernelPriority
+ .rodata.heapSTRUCT_SIZE
+                0x00014ed0        0x2 d:/workspace/FreeRTOS/Source/portable/MemMang/heap_2.o
+ *fill*         0x00014ed2        0x2 00
+ .rodata.g_pulFMPPERegs
+                0x00014ed4       0x10 ./RTOSDemo/driverlib/gcc/libdriver.a(flash.o)
+ .rodata.g_pulFMPRERegs
+                0x00014ee4       0x10 ./RTOSDemo/driverlib/gcc/libdriver.a(flash.o)
+ .rodata.CSWTCH.4
+                0x00014ef4        0x3 ./RTOSDemo/driverlib/gcc/libdriver.a(flash.o)
+ *fill*         0x00014ef7        0x1 00
+ .rodata.g_pulGPIOBaseAddrs
+                0x00014ef8       0x48 ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+ .rodata.g_pulPriority
+                0x00014f40       0x20 ./RTOSDemo/driverlib/gcc/libdriver.a(interrupt.o)
+ .rodata.g_pulRegs
+                0x00014f60       0x48 ./RTOSDemo/driverlib/gcc/libdriver.a(interrupt.o)
+ .rodata.g_pulDCRegs
+                0x00014fa8       0x10 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+ .rodata.g_pulXtals
+                0x00014fb8       0x5c ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+ .rodata.g_pulDCGCRegs
+                0x00015014        0xc ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+ .rodata.g_pulRCGCRegs
+                0x00015020        0xc ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+ .rodata.g_pulSCGCRegs
+                0x0001502c        0xc ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+ .rodata.g_pulSRCRRegs
+                0x00015038        0xc ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+                0x00015044                _etext = .
+
+.glue_7         0x00015044        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00015044        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00015044        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00015044        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00015044        0x0
+ .iplt          0x00000000        0x0 ./RTOSDemo/main.o
+
+.rel.dyn        0x00015044        0x0
+ .rel.iplt      0x00000000        0x0 ./RTOSDemo/main.o
+
+.data           0x20000000      0x178 load address 0x00015044
+                0x20000000                _data = .
+ *(vtable)
+ vtable         0x20000000      0x11c ./RTOSDemo/driverlib/gcc/libdriver.a(interrupt.o)
+ *(.data*)
+ .data          0x2000011c        0x0 ./RTOSDemo/main.o
+ .data.xMessage.5702
+                0x2000011c        0x4 ./RTOSDemo/main.o
+ .data          0x20000120        0x0 ./RTOSDemo/timertest.o
+ .data          0x20000120        0x0 ./RTOSDemo/ParTest/ParTest.o
+ .data          0x20000120        0x0 ./RTOSDemo/evalbot_drivers/dac.o
+ .data.g_ucHPVolume
+                0x20000120        0x1 ./RTOSDemo/evalbot_drivers/dac.o
+ .data          0x20000121        0x0 ./RTOSDemo/evalbot_drivers/display96x16x1.o
+ .data          0x20000121        0x0 ./RTOSDemo/evalbot_drivers/io.o
+ .data.g_ucDebouncedButtons
+                0x20000121        0x1 ./RTOSDemo/evalbot_drivers/io.o
+ .data          0x20000122        0x0 ./RTOSDemo/evalbot_drivers/motor.o
+ .data          0x20000122        0x0 ./RTOSDemo/evalbot_drivers/sensors.o
+ .data.g_ucDebouncedBumpers
+                0x20000122        0x1 ./RTOSDemo/evalbot_drivers/sensors.o
+ .data          0x20000123        0x0 ./RTOSDemo/evalbot_drivers/sound.o
+ .data.g_ucVolume
+                0x20000123        0x1 ./RTOSDemo/evalbot_drivers/sound.o
+ .data          0x20000124        0x0 ./RTOSDemo/evalbot_drivers/wav.o
+ .data          0x20000124        0x0 ./RTOSDemo/driverlib/ustdlib.o
+ .data          0x20000124        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/BlockQ.o
+ .data          0x20000124        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+ .data          0x20000124        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+ .data.usLastCreationCount.4715
+                0x20000124        0x2 d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+ .data          0x20000126        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/integer.o
+ .data          0x20000126        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/PollQ.o
+ .data          0x20000126        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/semtest.o
+ .data          0x20000126        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+ .data          0x20000126        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+ .data          0x20000126        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .data          0x20000126        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ *fill*         0x20000126        0x2 00
+ .data.xErrorStatus
+                0x20000128        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .data          0x2000012c        0x0 ./RTOSDemo/IntQueueTimer.o
+ .data          0x2000012c        0x0 ./RTOSDemo/webserver/uIP_Task.o
+ .data          0x2000012c        0x0 ./RTOSDemo/webserver/emac.o
+ .data          0x2000012c        0x0 ./RTOSDemo/webserver/httpd.o
+ .data          0x2000012c        0x0 ./RTOSDemo/webserver/httpd-cgi.o
+ .data.calls    0x2000012c       0x1c ./RTOSDemo/webserver/httpd-cgi.o
+ .data.states   0x20000148       0x24 ./RTOSDemo/webserver/httpd-cgi.o
+ .data          0x2000016c        0x0 ./RTOSDemo/webserver/httpd-fs.o
+ .data          0x2000016c        0x0 ./RTOSDemo/webserver/http-strings.o
+ .data          0x2000016c        0x0 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+ .data          0x2000016c        0x0 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+ .data          0x2000016c        0x0 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/timer.o
+ .data          0x2000016c        0x0 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+ .data          0x2000016c        0x0 d:/workspace/FreeRTOS/Source/list.o
+ .data          0x2000016c        0x0 d:/workspace/FreeRTOS/Source/queue.o
+ .data          0x2000016c        0x0 d:/workspace/FreeRTOS/Source/tasks.o
+ .data.xNextTaskUnblockTime
+                0x2000016c        0x4 d:/workspace/FreeRTOS/Source/tasks.o
+ .data          0x20000170        0x0 d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+ .data.uxCriticalNesting
+                0x20000170        0x4 d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+ .data          0x20000174        0x0 d:/workspace/FreeRTOS/Source/portable/MemMang/heap_2.o
+ .data.xFreeBytesRemaining
+                0x20000174        0x4 d:/workspace/FreeRTOS/Source/portable/MemMang/heap_2.o
+ .data          0x20000178        0x0 ./RTOSDemo/startup.o
+ .data          0x20000178        0x0 ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+ .data          0x20000178        0x0 ./RTOSDemo/driverlib/gcc/libdriver.a(flash.o)
+ .data          0x20000178        0x0 ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+ .data          0x20000178        0x0 ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+ .data          0x20000178        0x0 ./RTOSDemo/driverlib/gcc/libdriver.a(interrupt.o)
+ .data          0x20000178        0x0 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+ .data          0x20000178        0x0 ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+ .data          0x20000178        0x0 ./RTOSDemo/driverlib/gcc/libdriver.a(cpu.o)
+ .data          0x20000178        0x0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcmp.o)
+ .data          0x20000178        0x0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+ .data          0x20000178        0x0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+ .data          0x20000178        0x0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcat.o)
+ .data          0x20000178        0x0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strchr.o)
+ .data          0x20000178        0x0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcpy.o)
+ .data          0x20000178        0x0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strlen.o)
+ .data          0x20000178        0x0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strncmp.o)
+ .data          0x20000178        0x0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strncpy.o)
+ .data          0x20000178        0x0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strrchr.o)
+ .data          0x20000178        0x0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strstr.o)
+ .data          0x20000178        0x0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memchr.o)
+                0x20000178                _edata = .
+
+.igot.plt       0x20000178        0x0 load address 0x000151bc
+ .igot.plt      0x00000000        0x0 ./RTOSDemo/main.o
+
+.bss            0x20000178     0xb3c4 load address 0x000151c0
+                0x20000178                _bss = .
+ *(.bss*)
+ .bss           0x20000178        0x0 ./RTOSDemo/main.o
+ .bss.ulIdleError
+                0x20000178        0x4 ./RTOSDemo/main.o
+                0x20000178                ulIdleError
+ .bss.cMessage.5711
+                0x2000017c       0x1c ./RTOSDemo/main.o
+ .bss.ulTicksSinceLastDisplay.5703
+                0x20000198        0x4 ./RTOSDemo/main.o
+ .bss           0x2000019c        0x0 ./RTOSDemo/timertest.o
+ .bss.ulMaxJitter
+                0x2000019c        0x4 ./RTOSDemo/timertest.o
+                0x2000019c                ulMaxJitter
+ .bss.ulHighFrequencyTimerTicks
+                0x200001a0        0x4 ./RTOSDemo/timertest.o
+                0x200001a0                ulHighFrequencyTimerTicks
+ .bss.ulLastCount.4176
+                0x200001a4        0x4 ./RTOSDemo/timertest.o
+ .bss.ulMaxDifference.4175
+                0x200001a8        0x4 ./RTOSDemo/timertest.o
+ .bss           0x200001ac        0x0 ./RTOSDemo/ParTest/ParTest.o
+ .bss           0x200001ac        0x0 ./RTOSDemo/evalbot_drivers/dac.o
+ .bss           0x200001ac        0x0 ./RTOSDemo/evalbot_drivers/display96x16x1.o
+ .bss           0x200001ac        0x0 ./RTOSDemo/evalbot_drivers/io.o
+ .bss.ucButtonsClockA.4162
+                0x200001ac        0x1 ./RTOSDemo/evalbot_drivers/io.o
+ .bss.ucButtonsClockB.4163
+                0x200001ad        0x1 ./RTOSDemo/evalbot_drivers/io.o
+ .bss           0x200001ae        0x0 ./RTOSDemo/evalbot_drivers/motor.o
+ .bss           0x200001ae        0x0 ./RTOSDemo/evalbot_drivers/sensors.o
+ *fill*         0x200001ae        0x2 00
+ .bss.g_pfnWheelCallback
+                0x200001b0        0x4 ./RTOSDemo/evalbot_drivers/sensors.o
+ .bss.ucBumperClockA.4285
+                0x200001b4        0x1 ./RTOSDemo/evalbot_drivers/sensors.o
+ .bss.ucBumperClockB.4286
+                0x200001b5        0x1 ./RTOSDemo/evalbot_drivers/sensors.o
+ .bss           0x200001b6        0x0 ./RTOSDemo/evalbot_drivers/sound.o
+ *fill*         0x200001b6        0x2 00
+ .bss.g_ulDMAFlags
+                0x200001b8        0x4 ./RTOSDemo/evalbot_drivers/sound.o
+ .bss.g_sOutBuffers
+                0x200001bc       0x18 ./RTOSDemo/evalbot_drivers/sound.o
+ .bss.g_ulPlaying
+                0x200001d4        0x4 ./RTOSDemo/evalbot_drivers/sound.o
+ .bss.g_ulSampleRate
+                0x200001d8        0x4 ./RTOSDemo/evalbot_drivers/sound.o
+ .bss.g_usChannels
+                0x200001dc        0x2 ./RTOSDemo/evalbot_drivers/sound.o
+ *fill*         0x200001de        0x2 00
+ .bss.g_usBitsPerSample
+                0x200001e0        0x4 ./RTOSDemo/evalbot_drivers/sound.o
+ .bss           0x200001e4        0x0 ./RTOSDemo/evalbot_drivers/wav.o
+ .bss.g_pucBuffer
+                0x200001e4     0x1000 ./RTOSDemo/evalbot_drivers/wav.o
+ .bss.g_pucDataPtr
+                0x200011e4        0x4 ./RTOSDemo/evalbot_drivers/wav.o
+ .bss.g_ulMaxBufferSize
+                0x200011e8        0x4 ./RTOSDemo/evalbot_drivers/wav.o
+ .bss.g_ulFlags
+                0x200011ec        0x4 ./RTOSDemo/evalbot_drivers/wav.o
+ .bss.g_ulBytesPlayed
+                0x200011f0        0x4 ./RTOSDemo/evalbot_drivers/wav.o
+ .bss.g_ulBytesRemaining
+                0x200011f4        0x4 ./RTOSDemo/evalbot_drivers/wav.o
+ .bss.g_usMinutes
+                0x200011f8        0x2 ./RTOSDemo/evalbot_drivers/wav.o
+ .bss.g_usSeconds
+                0x200011fa        0x2 ./RTOSDemo/evalbot_drivers/wav.o
+ .bss           0x200011fc        0x0 ./RTOSDemo/driverlib/ustdlib.o
+ .bss           0x200011fc        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/BlockQ.o
+ .bss.sBlockingConsumerCount
+                0x200011fc        0x8 d:/workspace/FreeRTOS/Demo/Common/Minimal/BlockQ.o
+ .bss.sBlockingProducerCount
+                0x20001204        0x8 d:/workspace/FreeRTOS/Demo/Common/Minimal/BlockQ.o
+ .bss.sLastBlockingConsumerCount.4807
+                0x2000120c        0x8 d:/workspace/FreeRTOS/Demo/Common/Minimal/BlockQ.o
+ .bss.sLastBlockingProducerCount.4808
+                0x20001214        0x8 d:/workspace/FreeRTOS/Demo/Common/Minimal/BlockQ.o
+ .bss           0x2000121c        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+ .bss.xTestQueue
+                0x2000121c        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+ .bss.xSecondary
+                0x20001220        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+ .bss.xPrimaryCycles
+                0x20001224        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+ .bss.xSecondaryCycles
+                0x20001228        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+ .bss.xErrorOccurred
+                0x2000122c        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+ .bss.xRunIndicator
+                0x20001230        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+ .bss.xLastPrimaryCycleCount.4248
+                0x20001234        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+ .bss.xLastSecondaryCycleCount.4249
+                0x20001238        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+ .bss           0x2000123c        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+ .bss.usCreationCount
+                0x2000123c        0x2 d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+ *fill*         0x2000123e        0x2 00
+ .bss.uxTasksRunningAtStart
+                0x20001240        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+ .bss.uxTasksRunningNow.4717
+                0x20001244        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+ .bss           0x20001248        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/integer.o
+ .bss.xTaskCheck
+                0x20001248        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/integer.o
+ .bss           0x2000124c        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/PollQ.o
+ .bss.xPollingConsumerCount
+                0x2000124c        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/PollQ.o
+ .bss.xPollingProducerCount
+                0x20001250        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/PollQ.o
+ .bss.xPolledQueue.4774
+                0x20001254        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/PollQ.o
+ .bss           0x20001258        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/semtest.o
+ .bss.sCheckVariables
+                0x20001258        0x8 d:/workspace/FreeRTOS/Demo/Common/Minimal/semtest.o
+ .bss.sNextCheckVariable
+                0x20001260        0x2 d:/workspace/FreeRTOS/Demo/Common/Minimal/semtest.o
+ *fill*         0x20001262        0x2 00
+ .bss.sLastCheckVariables.4797
+                0x20001264        0x8 d:/workspace/FreeRTOS/Demo/Common/Minimal/semtest.o
+ .bss           0x2000126c        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+ .bss.xErrorDetected
+                0x2000126c        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+ .bss.ulLoopCounter
+                0x20001270        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+ .bss.ulLoopCounter2
+                0x20001274        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+ .bss.ulGuardedVariable
+                0x20001278        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+ .bss.xHighPriorityMutexTask
+                0x2000127c        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+ .bss.xMediumPriorityMutexTask
+                0x20001280        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+ .bss.ulLastLoopCounter.4821
+                0x20001284        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+ .bss.ulLastLoopCounter2.4822
+                0x20001288        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+ .bss           0x2000128c        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+ .bss.xErrorDetected
+                0x2000128c        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+ .bss.ulLoopCounter
+                0x20001290        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+ .bss.ulLastLoopCounter.4810
+                0x20001294        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+ .bss           0x20001298        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .bss.xMutex    0x20001298        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .bss.xErrorOccurred
+                0x2000129c        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .bss.xControllingIsSuspended
+                0x200012a0        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .bss.xBlockingIsSuspended
+                0x200012a4        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .bss.uxControllingCycles
+                0x200012a8        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .bss.uxBlockingCycles
+                0x200012ac        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .bss.uxPollingCycles
+                0x200012b0        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .bss.xControllingTaskHandle
+                0x200012b4        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .bss.xBlockingTaskHandle
+                0x200012b8        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .bss.uxLastControllingCycles.4228
+                0x200012bc        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .bss.uxLastBlockingCycles.4229
+                0x200012c0        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .bss.uxLastPollingCycles.4230
+                0x200012c4        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .bss           0x200012c8        0x0 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .bss.xNormallyEmptyQueue
+                0x200012c8        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .bss.xNormallyFullQueue
+                0x200012cc        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .bss.uxHighPriorityLoops1
+                0x200012d0        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .bss.uxHighPriorityLoops2
+                0x200012d4        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .bss.uxLowPriorityLoops1
+                0x200012d8        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .bss.uxLowPriorityLoops2
+                0x200012dc        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .bss.xErrorLine
+                0x200012e0        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .bss.xWasSuspended
+                0x200012e4        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .bss.uxValueForNormallyEmptyQueue
+                0x200012e8        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+                0x200012e8                uxValueForNormallyEmptyQueue
+ .bss.uxValueForNormallyFullQueue
+                0x200012ec        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+                0x200012ec                uxValueForNormallyFullQueue
+ .bss.ucNormallyEmptyReceivedValues
+                0x200012f0       0xc8 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .bss.ucNormallyFullReceivedValues
+                0x200013b8       0xc8 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .bss.uxLastHighPriorityLoops1.4652
+                0x20001480        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .bss.uxLastHighPriorityLoops2.4653
+                0x20001484        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .bss.uxLastLowPriorityLoops1.4654
+                0x20001488        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .bss.uxLastLowPriorityLoops2.4655
+                0x2000148c        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .bss.uxNextOperation.4642
+                0x20001490        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .bss.uxNextOperation.4633
+                0x20001494        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .bss           0x20001498        0x0 ./RTOSDemo/IntQueueTimer.o
+ .bss           0x20001498        0x0 ./RTOSDemo/webserver/uIP_Task.o
+ .bss.cMessageForDisplay.5085
+                0x20001498       0x20 ./RTOSDemo/webserver/uIP_Task.o
+ .bss           0x200014b8        0x0 ./RTOSDemo/webserver/emac.o
+ .bss.xEMACSemaphore
+                0x200014b8        0x4 ./RTOSDemo/webserver/emac.o
+                0x200014b8                xEMACSemaphore
+ .bss.xMACInterruptSemaphore
+                0x200014bc        0x4 ./RTOSDemo/webserver/emac.o
+                0x200014bc                xMACInterruptSemaphore
+ .bss.ucRxBuffers
+                0x200014c0     0x1d74 ./RTOSDemo/webserver/emac.o
+ .bss.ulRxLength
+                0x20003234       0x14 ./RTOSDemo/webserver/emac.o
+ .bss.ulNextTxSpace
+                0x20003248        0x4 ./RTOSDemo/webserver/emac.o
+ .bss.ulNextRxBuffer.4700
+                0x2000324c        0x4 ./RTOSDemo/webserver/emac.o
+ .bss.ulNextRxBuffer.4667
+                0x20003250        0x4 ./RTOSDemo/webserver/emac.o
+ .bss           0x20003254        0x0 ./RTOSDemo/webserver/httpd.o
+ .bss           0x20003254        0x0 ./RTOSDemo/webserver/httpd-cgi.o
+ .bss.cCountBuf
+                0x20003254       0x20 ./RTOSDemo/webserver/httpd-cgi.o
+ .bss.lRefreshCount
+                0x20003274        0x4 ./RTOSDemo/webserver/httpd-cgi.o
+                0x20003274                lRefreshCount
+ .bss           0x20003278        0x0 ./RTOSDemo/webserver/httpd-fs.o
+ .bss.count     0x20003278       0x10 ./RTOSDemo/webserver/httpd-fs.o
+ .bss           0x20003288        0x0 ./RTOSDemo/webserver/http-strings.o
+ .bss           0x20003288        0x0 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+ .bss.arp_table
+                0x20003288       0x60 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+ .bss.ipaddr    0x200032e8        0x4 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+ .bss.i         0x200032ec        0x1 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+ .bss.c         0x200032ed        0x1 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+ .bss.arptime   0x200032ee        0x1 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+ .bss.tmpage    0x200032ef        0x1 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+ .bss           0x200032f0        0x0 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+ .bss           0x200032f0        0x0 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/timer.o
+ .bss           0x200032f0        0x0 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+ .bss.uip_ethaddr
+                0x200032f0        0x8 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+                0x200032f0                uip_ethaddr
+ .bss.ipid      0x200032f8        0x2 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+ *fill*         0x200032fa        0x2 00
+ .bss.iss       0x200032fc        0x4 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+ .bss.lastport  0x20003300        0x2 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+ .bss.c         0x20003302        0x1 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+ .bss.opt       0x20003303        0x1 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+ .bss.tmp16     0x20003304        0x2 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+ .bss           0x20003306        0x0 d:/workspace/FreeRTOS/Source/list.o
+ .bss           0x20003306        0x0 d:/workspace/FreeRTOS/Source/queue.o
+ .bss           0x20003306        0x0 d:/workspace/FreeRTOS/Source/tasks.o
+ *fill*         0x20003306        0x2 00
+ .bss.pxCurrentTCB
+                0x20003308        0x4 d:/workspace/FreeRTOS/Source/tasks.o
+                0x20003308                pxCurrentTCB
+ .bss.pxReadyTasksLists
+                0x2000330c       0x64 d:/workspace/FreeRTOS/Source/tasks.o
+ .bss.xDelayedTaskList1
+                0x20003370       0x14 d:/workspace/FreeRTOS/Source/tasks.o
+ .bss.xDelayedTaskList2
+                0x20003384       0x14 d:/workspace/FreeRTOS/Source/tasks.o
+ .bss.pxDelayedTaskList
+                0x20003398        0x4 d:/workspace/FreeRTOS/Source/tasks.o
+ .bss.pxOverflowDelayedTaskList
+                0x2000339c        0x4 d:/workspace/FreeRTOS/Source/tasks.o
+ .bss.xPendingReadyList
+                0x200033a0       0x14 d:/workspace/FreeRTOS/Source/tasks.o
+ .bss.xTasksWaitingTermination
+                0x200033b4       0x14 d:/workspace/FreeRTOS/Source/tasks.o
+ .bss.uxTasksDeleted
+                0x200033c8        0x4 d:/workspace/FreeRTOS/Source/tasks.o
+ .bss.xSuspendedTaskList
+                0x200033cc       0x14 d:/workspace/FreeRTOS/Source/tasks.o
+ .bss.uxCurrentNumberOfTasks
+                0x200033e0        0x4 d:/workspace/FreeRTOS/Source/tasks.o
+ .bss.xTickCount
+                0x200033e4        0x4 d:/workspace/FreeRTOS/Source/tasks.o
+ .bss.uxTopUsedPriority
+                0x200033e8        0x4 d:/workspace/FreeRTOS/Source/tasks.o
+ .bss.uxTopReadyPriority
+                0x200033ec        0x4 d:/workspace/FreeRTOS/Source/tasks.o
+ .bss.xSchedulerRunning
+                0x200033f0        0x4 d:/workspace/FreeRTOS/Source/tasks.o
+ .bss.uxSchedulerSuspended
+                0x200033f4        0x4 d:/workspace/FreeRTOS/Source/tasks.o
+ .bss.uxMissedTicks
+                0x200033f8        0x4 d:/workspace/FreeRTOS/Source/tasks.o
+ .bss.xMissedYield
+                0x200033fc        0x4 d:/workspace/FreeRTOS/Source/tasks.o
+ .bss.xNumOfOverflows
+                0x20003400        0x4 d:/workspace/FreeRTOS/Source/tasks.o
+ .bss.uxTCBNumber
+                0x20003404        0x4 d:/workspace/FreeRTOS/Source/tasks.o
+ .bss.pcStatsString
+                0x20003408       0x34 d:/workspace/FreeRTOS/Source/tasks.o
+ .bss.ulTaskSwitchedInTime
+                0x2000343c        0x4 d:/workspace/FreeRTOS/Source/tasks.o
+ .bss.pcStatusString.5852
+                0x20003440       0x34 d:/workspace/FreeRTOS/Source/tasks.o
+ .bss           0x20003474        0x0 d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+ .bss           0x20003474        0x0 d:/workspace/FreeRTOS/Source/portable/MemMang/heap_2.o
+ *fill*         0x20003474        0x4 00
+ .bss.xHeap     0x20003478     0x5dc0 d:/workspace/FreeRTOS/Source/portable/MemMang/heap_2.o
+ .bss.xStart    0x20009238        0x8 d:/workspace/FreeRTOS/Source/portable/MemMang/heap_2.o
+ .bss.xEnd      0x20009240        0x8 d:/workspace/FreeRTOS/Source/portable/MemMang/heap_2.o
+ .bss.xHeapHasBeenInitialised.4700
+                0x20009248        0x4 d:/workspace/FreeRTOS/Source/portable/MemMang/heap_2.o
+ .bss           0x2000924c        0x0 ./RTOSDemo/startup.o
+ .bss.pulStack  0x2000924c      0x1e0 ./RTOSDemo/startup.o
+ .bss           0x2000942c        0x0 ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+ .bss           0x2000942c        0x0 ./RTOSDemo/driverlib/gcc/libdriver.a(flash.o)
+ .bss           0x2000942c        0x0 ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+ .bss           0x2000942c        0x0 ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+ .bss           0x2000942c        0x0 ./RTOSDemo/driverlib/gcc/libdriver.a(interrupt.o)
+ .bss           0x2000942c        0x0 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+ .bss           0x2000942c        0x0 ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+ .bss           0x2000942c        0x0 ./RTOSDemo/driverlib/gcc/libdriver.a(cpu.o)
+ .bss           0x2000942c        0x0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcmp.o)
+ .bss           0x2000942c        0x0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+ .bss           0x2000942c        0x0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+ .bss           0x2000942c        0x0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcat.o)
+ .bss           0x2000942c        0x0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strchr.o)
+ .bss           0x2000942c        0x0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcpy.o)
+ .bss           0x2000942c        0x0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strlen.o)
+ .bss           0x2000942c        0x0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strncmp.o)
+ .bss           0x2000942c        0x0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strncpy.o)
+ .bss           0x2000942c        0x0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strrchr.o)
+ .bss           0x2000942c        0x0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strstr.o)
+ .bss           0x2000942c        0x0 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memchr.o)
+ *(COMMON)
+ COMMON         0x2000942c        0x4 ./RTOSDemo/main.o
+                0x2000942c                xOLEDQueue
+ COMMON         0x20009430       0x10 ./RTOSDemo/evalbot_drivers/sound.o
+                0x20009430                sDMAControlTable
+ COMMON         0x20009440        0x4 d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+                0x20009440                xCreatedTask
+ COMMON         0x20009444        0xc d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+                0x20009444                xHighPriorityTask
+                0x20009448                xMediumPriorityTask
+                0x2000944c                xHighestPriorityTask
+ COMMON         0x20009450       0x10 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+                0x20009450                xHighPriorityNormallyEmptyTask2
+                0x20009454                xHighPriorityNormallyFullTask1
+                0x20009458                xHighPriorityNormallyEmptyTask1
+                0x2000945c                xHighPriorityNormallyFullTask2
+ COMMON         0x20009460        0x4 ./RTOSDemo/webserver/emac.o
+                0x20009460                uip_buf
+ COMMON         0x20009464        0x4 ./RTOSDemo/webserver/httpd-cgi.o
+                0x20009464                pcStatus
+ COMMON         0x20009468     0x2082 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+                0x20009468                uip_len
+                0x2000946c                uip_sappdata
+                0x20009470                uip_acc32
+                0x20009474                uip_flags
+                0x20009478                uip_appdata
+                0x2000947c                uip_conn
+                0x20009480                uip_conns
+                0x2000b460                uip_listenports
+                0x2000b4b0                uip_draddr
+                0x2000b4b4                uip_stat
+                0x2000b4e0                uip_netmask
+                0x2000b4e4                uip_hostaddr
+                0x2000b4e8                uip_slen
+ *fill*         0x2000b4ea        0x2 00
+ COMMON         0x2000b4ec       0x50 d:/workspace/FreeRTOS/Source/queue.o
+                0x2000b4ec                xQueueRegistry
+                0x2000b53c                _ebss = .
+OUTPUT(RTOSDemo.axf elf32-littlearm)
+
+.debug_info     0x00000000     0xa40b
+ .debug_info    0x00000000      0x3b8 ./RTOSDemo/main.o
+ .debug_info    0x000003b8      0x110 ./RTOSDemo/timertest.o
+ .debug_info    0x000004c8       0xce ./RTOSDemo/ParTest/ParTest.o
+ .debug_info    0x00000596      0x176 ./RTOSDemo/evalbot_drivers/dac.o
+ .debug_info    0x0000070c      0x40c ./RTOSDemo/evalbot_drivers/display96x16x1.o
+ .debug_info    0x00000b18      0x207 ./RTOSDemo/evalbot_drivers/io.o
+ .debug_info    0x00000d1f      0x18d ./RTOSDemo/evalbot_drivers/motor.o
+ .debug_info    0x00000eac      0x27b ./RTOSDemo/evalbot_drivers/sensors.o
+ .debug_info    0x00001127      0x3ad ./RTOSDemo/evalbot_drivers/sound.o
+ .debug_info    0x000014d4      0x3ff ./RTOSDemo/evalbot_drivers/wav.o
+ .debug_info    0x000018d3      0x4fe ./RTOSDemo/driverlib/ustdlib.o
+ .debug_info    0x00001dd1      0x2e9 d:/workspace/FreeRTOS/Demo/Common/Minimal/BlockQ.o
+ .debug_info    0x000020ba      0x20d d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+ .debug_info    0x000022c7      0x220 d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+ .debug_info    0x000024e7      0x172 d:/workspace/FreeRTOS/Demo/Common/Minimal/integer.o
+ .debug_info    0x00002659      0x1c4 d:/workspace/FreeRTOS/Demo/Common/Minimal/PollQ.o
+ .debug_info    0x0000281d      0x251 d:/workspace/FreeRTOS/Demo/Common/Minimal/semtest.o
+ .debug_info    0x00002a6e      0x27d d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+ .debug_info    0x00002ceb      0x28c d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+ .debug_info    0x00002f77      0x21e d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .debug_info    0x00003195      0x687 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .debug_info    0x0000381c       0x9f ./RTOSDemo/IntQueueTimer.o
+ .debug_info    0x000038bb      0x746 ./RTOSDemo/webserver/uIP_Task.o
+ .debug_info    0x00004001      0x32b ./RTOSDemo/webserver/emac.o
+ .debug_info    0x0000432c      0xa64 ./RTOSDemo/webserver/httpd.o
+ .debug_info    0x00004d90      0xc3a ./RTOSDemo/webserver/httpd-cgi.o
+ .debug_info    0x000059ca      0x521 ./RTOSDemo/webserver/httpd-fs.o
+ .debug_info    0x00005eeb      0x442 ./RTOSDemo/webserver/http-strings.o
+ .debug_info    0x0000632d      0x502 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+ .debug_info    0x0000682f      0x7c7 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+ .debug_info    0x00006ff6      0x126 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/timer.o
+ .debug_info    0x0000711c      0xe9b d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+ .debug_info    0x00007fb7      0x2a6 d:/workspace/FreeRTOS/Source/list.o
+ .debug_info    0x0000825d      0x9ea d:/workspace/FreeRTOS/Source/queue.o
+ .debug_info    0x00008c47     0x1172 d:/workspace/FreeRTOS/Source/tasks.o
+ .debug_info    0x00009db9      0x1d7 d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+ .debug_info    0x00009f90      0x2b3 d:/workspace/FreeRTOS/Source/portable/MemMang/heap_2.o
+ .debug_info    0x0000a243      0x1c8 ./RTOSDemo/startup.o
+
+.debug_abbrev   0x00000000     0x294d
+ .debug_abbrev  0x00000000      0x168 ./RTOSDemo/main.o
+ .debug_abbrev  0x00000168       0x7b ./RTOSDemo/timertest.o
+ .debug_abbrev  0x000001e3       0x7e ./RTOSDemo/ParTest/ParTest.o
+ .debug_abbrev  0x00000261       0xd7 ./RTOSDemo/evalbot_drivers/dac.o
+ .debug_abbrev  0x00000338       0xd8 ./RTOSDemo/evalbot_drivers/display96x16x1.o
+ .debug_abbrev  0x00000410       0xcd ./RTOSDemo/evalbot_drivers/io.o
+ .debug_abbrev  0x000004dd       0xc3 ./RTOSDemo/evalbot_drivers/motor.o
+ .debug_abbrev  0x000005a0      0x10a ./RTOSDemo/evalbot_drivers/sensors.o
+ .debug_abbrev  0x000006aa      0x150 ./RTOSDemo/evalbot_drivers/sound.o
+ .debug_abbrev  0x000007fa      0x180 ./RTOSDemo/evalbot_drivers/wav.o
+ .debug_abbrev  0x0000097a      0x14d ./RTOSDemo/driverlib/ustdlib.o
+ .debug_abbrev  0x00000ac7       0xf7 d:/workspace/FreeRTOS/Demo/Common/Minimal/BlockQ.o
+ .debug_abbrev  0x00000bbe       0xd9 d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+ .debug_abbrev  0x00000c97       0xe9 d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+ .debug_abbrev  0x00000d80       0xc3 d:/workspace/FreeRTOS/Demo/Common/Minimal/integer.o
+ .debug_abbrev  0x00000e43       0xa8 d:/workspace/FreeRTOS/Demo/Common/Minimal/PollQ.o
+ .debug_abbrev  0x00000eeb       0xf7 d:/workspace/FreeRTOS/Demo/Common/Minimal/semtest.o
+ .debug_abbrev  0x00000fe2       0xdb d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+ .debug_abbrev  0x000010bd       0xfd d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+ .debug_abbrev  0x000011ba       0xe8 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .debug_abbrev  0x000012a2      0x130 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .debug_abbrev  0x000013d2       0x67 ./RTOSDemo/IntQueueTimer.o
+ .debug_abbrev  0x00001439      0x1e7 ./RTOSDemo/webserver/uIP_Task.o
+ .debug_abbrev  0x00001620      0x109 ./RTOSDemo/webserver/emac.o
+ .debug_abbrev  0x00001729      0x1d5 ./RTOSDemo/webserver/httpd.o
+ .debug_abbrev  0x000018fe      0x1c7 ./RTOSDemo/webserver/httpd-cgi.o
+ .debug_abbrev  0x00001ac5      0x143 ./RTOSDemo/webserver/httpd-fs.o
+ .debug_abbrev  0x00001c08       0x49 ./RTOSDemo/webserver/http-strings.o
+ .debug_abbrev  0x00001c51      0x178 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+ .debug_abbrev  0x00001dc9      0x1d5 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+ .debug_abbrev  0x00001f9e       0xac d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/timer.o
+ .debug_abbrev  0x0000204a      0x23d d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+ .debug_abbrev  0x00002287       0xb6 d:/workspace/FreeRTOS/Source/list.o
+ .debug_abbrev  0x0000233d      0x135 d:/workspace/FreeRTOS/Source/queue.o
+ .debug_abbrev  0x00002472      0x182 d:/workspace/FreeRTOS/Source/tasks.o
+ .debug_abbrev  0x000025f4      0x120 d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+ .debug_abbrev  0x00002714      0x15c d:/workspace/FreeRTOS/Source/portable/MemMang/heap_2.o
+ .debug_abbrev  0x00002870       0xdd ./RTOSDemo/startup.o
+
+.debug_loc      0x00000000     0x3fe9
+ .debug_loc     0x00000000      0x10e ./RTOSDemo/main.o
+ .debug_loc     0x0000010e       0x70 ./RTOSDemo/timertest.o
+ .debug_loc     0x0000017e       0x9c ./RTOSDemo/ParTest/ParTest.o
+ .debug_loc     0x0000021a      0x164 ./RTOSDemo/evalbot_drivers/dac.o
+ .debug_loc     0x0000037e      0x2c0 ./RTOSDemo/evalbot_drivers/display96x16x1.o
+ .debug_loc     0x0000063e      0x1a8 ./RTOSDemo/evalbot_drivers/io.o
+ .debug_loc     0x000007e6      0x10c ./RTOSDemo/evalbot_drivers/motor.o
+ .debug_loc     0x000008f2      0x20c ./RTOSDemo/evalbot_drivers/sensors.o
+ .debug_loc     0x00000afe      0x22c ./RTOSDemo/evalbot_drivers/sound.o
+ .debug_loc     0x00000d2a      0x1e0 ./RTOSDemo/evalbot_drivers/wav.o
+ .debug_loc     0x00000f0a      0x1d8 ./RTOSDemo/driverlib/ustdlib.o
+ .debug_loc     0x000010e2       0xe1 d:/workspace/FreeRTOS/Demo/Common/Minimal/BlockQ.o
+ .debug_loc     0x000011c3       0xe0 d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+ .debug_loc     0x000012a3       0xe0 d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+ .debug_loc     0x00001383       0xa8 d:/workspace/FreeRTOS/Demo/Common/Minimal/integer.o
+ .debug_loc     0x0000142b       0xe0 d:/workspace/FreeRTOS/Demo/Common/Minimal/PollQ.o
+ .debug_loc     0x0000150b       0xa8 d:/workspace/FreeRTOS/Demo/Common/Minimal/semtest.o
+ .debug_loc     0x000015b3      0x144 d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+ .debug_loc     0x000016f7      0x144 d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+ .debug_loc     0x0000183b      0x118 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .debug_loc     0x00001953      0x294 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .debug_loc     0x00001be7       0x90 ./RTOSDemo/IntQueueTimer.o
+ .debug_loc     0x00001c77      0x12c ./RTOSDemo/webserver/uIP_Task.o
+ .debug_loc     0x00001da3      0x17c ./RTOSDemo/webserver/emac.o
+ .debug_loc     0x00001f1f      0x25c ./RTOSDemo/webserver/httpd.o
+ .debug_loc     0x0000217b      0x311 ./RTOSDemo/webserver/httpd-cgi.o
+ .debug_loc     0x0000248c       0xe0 ./RTOSDemo/webserver/httpd-fs.o
+ .debug_loc     0x0000256c      0x12c d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+ .debug_loc     0x00002698      0x288 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+ .debug_loc     0x00002920       0xe0 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/timer.o
+ .debug_loc     0x00002a00      0x35c d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+ .debug_loc     0x00002d5c      0x118 d:/workspace/FreeRTOS/Source/list.o
+ .debug_loc     0x00002e74      0x540 d:/workspace/FreeRTOS/Source/queue.o
+ .debug_loc     0x000033b4      0x901 d:/workspace/FreeRTOS/Source/tasks.o
+ .debug_loc     0x00003cb5      0x178 d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+ .debug_loc     0x00003e2d       0xc8 d:/workspace/FreeRTOS/Source/portable/MemMang/heap_2.o
+ .debug_loc     0x00003ef5       0xf4 ./RTOSDemo/startup.o
+
+.debug_aranges  0x00000000      0xd08
+ .debug_aranges
+                0x00000000       0x40 ./RTOSDemo/main.o
+ .debug_aranges
+                0x00000040       0x28 ./RTOSDemo/timertest.o
+ .debug_aranges
+                0x00000068       0x30 ./RTOSDemo/ParTest/ParTest.o
+ .debug_aranges
+                0x00000098       0x50 ./RTOSDemo/evalbot_drivers/dac.o
+ .debug_aranges
+                0x000000e8       0x80 ./RTOSDemo/evalbot_drivers/display96x16x1.o
+ .debug_aranges
+                0x00000168       0x58 ./RTOSDemo/evalbot_drivers/io.o
+ .debug_aranges
+                0x000001c0       0x40 ./RTOSDemo/evalbot_drivers/motor.o
+ .debug_aranges
+                0x00000200       0x68 ./RTOSDemo/evalbot_drivers/sensors.o
+ .debug_aranges
+                0x00000268       0x70 ./RTOSDemo/evalbot_drivers/sound.o
+ .debug_aranges
+                0x000002d8       0x60 ./RTOSDemo/evalbot_drivers/wav.o
+ .debug_aranges
+                0x00000338       0x58 ./RTOSDemo/driverlib/ustdlib.o
+ .debug_aranges
+                0x00000390       0x38 d:/workspace/FreeRTOS/Demo/Common/Minimal/BlockQ.o
+ .debug_aranges
+                0x000003c8       0x38 d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+ .debug_aranges
+                0x00000400       0x38 d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+ .debug_aranges
+                0x00000438       0x30 d:/workspace/FreeRTOS/Demo/Common/Minimal/integer.o
+ .debug_aranges
+                0x00000468       0x38 d:/workspace/FreeRTOS/Demo/Common/Minimal/PollQ.o
+ .debug_aranges
+                0x000004a0       0x30 d:/workspace/FreeRTOS/Demo/Common/Minimal/semtest.o
+ .debug_aranges
+                0x000004d0       0x48 d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+ .debug_aranges
+                0x00000518       0x48 d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+ .debug_aranges
+                0x00000560       0x40 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .debug_aranges
+                0x000005a0       0x78 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .debug_aranges
+                0x00000618       0x30 ./RTOSDemo/IntQueueTimer.o
+ .debug_aranges
+                0x00000648       0x48 ./RTOSDemo/webserver/uIP_Task.o
+ .debug_aranges
+                0x00000690       0x50 ./RTOSDemo/webserver/emac.o
+ .debug_aranges
+                0x000006e0       0x70 ./RTOSDemo/webserver/httpd.o
+ .debug_aranges
+                0x00000750       0x88 ./RTOSDemo/webserver/httpd-cgi.o
+ .debug_aranges
+                0x000007d8       0x38 ./RTOSDemo/webserver/httpd-fs.o
+ .debug_aranges
+                0x00000810       0x48 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+ .debug_aranges
+                0x00000858       0x78 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+ .debug_aranges
+                0x000008d0       0x38 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/timer.o
+ .debug_aranges
+                0x00000908       0x98 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+ .debug_aranges
+                0x000009a0       0x40 d:/workspace/FreeRTOS/Source/list.o
+ .debug_aranges
+                0x000009e0       0xd8 d:/workspace/FreeRTOS/Source/queue.o
+ .debug_aranges
+                0x00000ab8      0x168 d:/workspace/FreeRTOS/Source/tasks.o
+ .debug_aranges
+                0x00000c20       0x70 d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+ .debug_aranges
+                0x00000c90       0x38 d:/workspace/FreeRTOS/Source/portable/MemMang/heap_2.o
+ .debug_aranges
+                0x00000cc8       0x40 ./RTOSDemo/startup.o
+
+.debug_ranges   0x00000000      0xab8
+ .debug_ranges  0x00000000       0x30 ./RTOSDemo/main.o
+ .debug_ranges  0x00000030       0x18 ./RTOSDemo/timertest.o
+ .debug_ranges  0x00000048       0x20 ./RTOSDemo/ParTest/ParTest.o
+ .debug_ranges  0x00000068       0x40 ./RTOSDemo/evalbot_drivers/dac.o
+ .debug_ranges  0x000000a8       0x70 ./RTOSDemo/evalbot_drivers/display96x16x1.o
+ .debug_ranges  0x00000118       0x48 ./RTOSDemo/evalbot_drivers/io.o
+ .debug_ranges  0x00000160       0x30 ./RTOSDemo/evalbot_drivers/motor.o
+ .debug_ranges  0x00000190       0x58 ./RTOSDemo/evalbot_drivers/sensors.o
+ .debug_ranges  0x000001e8       0x60 ./RTOSDemo/evalbot_drivers/sound.o
+ .debug_ranges  0x00000248       0x50 ./RTOSDemo/evalbot_drivers/wav.o
+ .debug_ranges  0x00000298       0x48 ./RTOSDemo/driverlib/ustdlib.o
+ .debug_ranges  0x000002e0       0x28 d:/workspace/FreeRTOS/Demo/Common/Minimal/BlockQ.o
+ .debug_ranges  0x00000308       0x28 d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+ .debug_ranges  0x00000330       0x28 d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+ .debug_ranges  0x00000358       0x20 d:/workspace/FreeRTOS/Demo/Common/Minimal/integer.o
+ .debug_ranges  0x00000378       0x28 d:/workspace/FreeRTOS/Demo/Common/Minimal/PollQ.o
+ .debug_ranges  0x000003a0       0x20 d:/workspace/FreeRTOS/Demo/Common/Minimal/semtest.o
+ .debug_ranges  0x000003c0       0x38 d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+ .debug_ranges  0x000003f8       0x38 d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+ .debug_ranges  0x00000430       0x30 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .debug_ranges  0x00000460       0x68 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .debug_ranges  0x000004c8       0x20 ./RTOSDemo/IntQueueTimer.o
+ .debug_ranges  0x000004e8       0x38 ./RTOSDemo/webserver/uIP_Task.o
+ .debug_ranges  0x00000520       0x40 ./RTOSDemo/webserver/emac.o
+ .debug_ranges  0x00000560       0x60 ./RTOSDemo/webserver/httpd.o
+ .debug_ranges  0x000005c0       0x78 ./RTOSDemo/webserver/httpd-cgi.o
+ .debug_ranges  0x00000638       0x28 ./RTOSDemo/webserver/httpd-fs.o
+ .debug_ranges  0x00000660       0x38 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+ .debug_ranges  0x00000698       0x68 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+ .debug_ranges  0x00000700       0x28 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/timer.o
+ .debug_ranges  0x00000728       0x88 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+ .debug_ranges  0x000007b0       0x30 d:/workspace/FreeRTOS/Source/list.o
+ .debug_ranges  0x000007e0       0xc8 d:/workspace/FreeRTOS/Source/queue.o
+ .debug_ranges  0x000008a8      0x158 d:/workspace/FreeRTOS/Source/tasks.o
+ .debug_ranges  0x00000a00       0x60 d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+ .debug_ranges  0x00000a60       0x28 d:/workspace/FreeRTOS/Source/portable/MemMang/heap_2.o
+ .debug_ranges  0x00000a88       0x30 ./RTOSDemo/startup.o
+
+.debug_line     0x00000000     0x4e87
+ .debug_line    0x00000000      0x175 ./RTOSDemo/main.o
+ .debug_line    0x00000175       0x8c ./RTOSDemo/timertest.o
+ .debug_line    0x00000201       0x73 ./RTOSDemo/ParTest/ParTest.o
+ .debug_line    0x00000274      0x18e ./RTOSDemo/evalbot_drivers/dac.o
+ .debug_line    0x00000402      0x2ac ./RTOSDemo/evalbot_drivers/display96x16x1.o
+ .debug_line    0x000006ae      0x13f ./RTOSDemo/evalbot_drivers/io.o
+ .debug_line    0x000007ed      0x115 ./RTOSDemo/evalbot_drivers/motor.o
+ .debug_line    0x00000902      0x193 ./RTOSDemo/evalbot_drivers/sensors.o
+ .debug_line    0x00000a95      0x1f0 ./RTOSDemo/evalbot_drivers/sound.o
+ .debug_line    0x00000c85      0x1a3 ./RTOSDemo/evalbot_drivers/wav.o
+ .debug_line    0x00000e28      0x34f ./RTOSDemo/driverlib/ustdlib.o
+ .debug_line    0x00001177      0x169 d:/workspace/FreeRTOS/Demo/Common/Minimal/BlockQ.o
+ .debug_line    0x000012e0      0x1e7 d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+ .debug_line    0x000014c7      0x14a d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+ .debug_line    0x00001611       0xf0 d:/workspace/FreeRTOS/Demo/Common/Minimal/integer.o
+ .debug_line    0x00001701      0x157 d:/workspace/FreeRTOS/Demo/Common/Minimal/PollQ.o
+ .debug_line    0x00001858      0x17a d:/workspace/FreeRTOS/Demo/Common/Minimal/semtest.o
+ .debug_line    0x000019d2      0x205 d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+ .debug_line    0x00001bd7      0x18d d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+ .debug_line    0x00001d64      0x1a7 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .debug_line    0x00001f0b      0x34e d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .debug_line    0x00002259       0x8f ./RTOSDemo/IntQueueTimer.o
+ .debug_line    0x000022e8      0x30a ./RTOSDemo/webserver/uIP_Task.o
+ .debug_line    0x000025f2      0x20c ./RTOSDemo/webserver/emac.o
+ .debug_line    0x000027fe      0x3ea ./RTOSDemo/webserver/httpd.o
+ .debug_line    0x00002be8      0x354 ./RTOSDemo/webserver/httpd-cgi.o
+ .debug_line    0x00002f3c      0x195 ./RTOSDemo/webserver/httpd-fs.o
+ .debug_line    0x000030d1       0x42 ./RTOSDemo/webserver/http-strings.o
+ .debug_line    0x00003113      0x27e d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+ .debug_line    0x00003391      0x2fa d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+ .debug_line    0x0000368b       0xdc d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/timer.o
+ .debug_line    0x00003767      0x686 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+ .debug_line    0x00003ded      0x137 d:/workspace/FreeRTOS/Source/list.o
+ .debug_line    0x00003f24      0x420 d:/workspace/FreeRTOS/Source/queue.o
+ .debug_line    0x00004344      0x7cb d:/workspace/FreeRTOS/Source/tasks.o
+ .debug_line    0x00004b0f      0x175 d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+ .debug_line    0x00004c84      0x15e d:/workspace/FreeRTOS/Source/portable/MemMang/heap_2.o
+ .debug_line    0x00004de2       0xa5 ./RTOSDemo/startup.o
+
+.debug_str      0x00000000     0x3e8e
+ .debug_str     0x00000000      0x217 ./RTOSDemo/main.o
+                                0x272 (size before relaxing)
+ .debug_str     0x00000217       0x9d ./RTOSDemo/timertest.o
+                                0x10a (size before relaxing)
+ .debug_str     0x000002b4       0x53 ./RTOSDemo/ParTest/ParTest.o
+                                 0xda (size before relaxing)
+ .debug_str     0x00000307       0xbd ./RTOSDemo/evalbot_drivers/dac.o
+                                0x10f (size before relaxing)
+ .debug_str     0x000003c4      0x1e2 ./RTOSDemo/evalbot_drivers/display96x16x1.o
+                                0x2b2 (size before relaxing)
+ .debug_str     0x000005a6      0x111 ./RTOSDemo/evalbot_drivers/io.o
+                                0x15f (size before relaxing)
+ .debug_str     0x000006b7       0xc2 ./RTOSDemo/evalbot_drivers/motor.o
+                                0x120 (size before relaxing)
+ .debug_str     0x00000779      0x195 ./RTOSDemo/evalbot_drivers/sensors.o
+                                0x1ff (size before relaxing)
+ .debug_str     0x0000090e      0x1e3 ./RTOSDemo/evalbot_drivers/sound.o
+                                0x28b (size before relaxing)
+ .debug_str     0x00000af1      0x207 ./RTOSDemo/evalbot_drivers/wav.o
+                                0x2d4 (size before relaxing)
+ .debug_str     0x00000cf8      0x18f ./RTOSDemo/driverlib/ustdlib.o
+                                0x27c (size before relaxing)
+ .debug_str     0x00000e87      0x226 d:/workspace/FreeRTOS/Demo/Common/Minimal/BlockQ.o
+                                0x303 (size before relaxing)
+ .debug_str     0x000010ad      0x153 d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+                                0x1ed (size before relaxing)
+ .debug_str     0x00001200      0x106 d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+                                0x1e1 (size before relaxing)
+ .debug_str     0x00001306       0xad d:/workspace/FreeRTOS/Demo/Common/Minimal/integer.o
+                                0x175 (size before relaxing)
+ .debug_str     0x000013b3       0xd7 d:/workspace/FreeRTOS/Demo/Common/Minimal/PollQ.o
+                                0x1d1 (size before relaxing)
+ .debug_str     0x0000148a      0x17a d:/workspace/FreeRTOS/Demo/Common/Minimal/semtest.o
+                                0x26d (size before relaxing)
+ .debug_str     0x00001604      0x16e d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+                                0x267 (size before relaxing)
+ .debug_str     0x00001772      0x105 d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+                                0x20b (size before relaxing)
+ .debug_str     0x00001877      0x19d d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+                                0x252 (size before relaxing)
+ .debug_str     0x00001a14      0x425 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+                                0x506 (size before relaxing)
+ .debug_str     0x00001e39       0x61 ./RTOSDemo/IntQueueTimer.o
+                                 0xce (size before relaxing)
+ .debug_str     0x00001e9a      0x2a5 ./RTOSDemo/webserver/uIP_Task.o
+                                0x3f1 (size before relaxing)
+ .debug_str     0x0000213f       0xf2 ./RTOSDemo/webserver/emac.o
+                                0x249 (size before relaxing)
+ .debug_str     0x00002231      0x21a ./RTOSDemo/webserver/httpd.o
+                                0x44d (size before relaxing)
+ .debug_str     0x0000244b      0x1da ./RTOSDemo/webserver/httpd-cgi.o
+                                0x467 (size before relaxing)
+ .debug_str     0x00002625      0x179 ./RTOSDemo/webserver/httpd-fs.o
+                                0x26c (size before relaxing)
+ .debug_str     0x0000279e       0xcc ./RTOSDemo/webserver/http-strings.o
+                                0x236 (size before relaxing)
+ .debug_str     0x0000286a      0x17d d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+                                0x2e7 (size before relaxing)
+ .debug_str     0x000029e7      0x107 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+                                0x351 (size before relaxing)
+ .debug_str     0x00002aee       0x75 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/timer.o
+                                 0xea (size before relaxing)
+ .debug_str     0x00002b63      0x290 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+                                0x612 (size before relaxing)
+ .debug_str     0x00002df3      0x142 d:/workspace/FreeRTOS/Source/list.o
+                                0x1ea (size before relaxing)
+ .debug_str     0x00002f35      0x40f d:/workspace/FreeRTOS/Source/queue.o
+                                0x5b1 (size before relaxing)
+ .debug_str     0x00003344      0x817 d:/workspace/FreeRTOS/Source/tasks.o
+                                0xa40 (size before relaxing)
+ .debug_str     0x00003b5b      0x140 d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+                                0x1c6 (size before relaxing)
+ .debug_str     0x00003c9b      0x16e d:/workspace/FreeRTOS/Source/portable/MemMang/heap_2.o
+                                0x215 (size before relaxing)
+ .debug_str     0x00003e09       0x85 ./RTOSDemo/startup.o
+                                 0xda (size before relaxing)
+
+.comment        0x00000000       0x5a
+ .comment       0x00000000       0x30 ./RTOSDemo/main.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000000       0x31 ./RTOSDemo/timertest.o
+ .comment       0x00000000       0x31 ./RTOSDemo/ParTest/ParTest.o
+ .comment       0x00000000       0x31 ./RTOSDemo/evalbot_drivers/dac.o
+ .comment       0x00000000       0x31 ./RTOSDemo/evalbot_drivers/display96x16x1.o
+ .comment       0x00000000       0x31 ./RTOSDemo/evalbot_drivers/io.o
+ .comment       0x00000000       0x31 ./RTOSDemo/evalbot_drivers/motor.o
+ .comment       0x00000000       0x31 ./RTOSDemo/evalbot_drivers/sensors.o
+ .comment       0x00000000       0x31 ./RTOSDemo/evalbot_drivers/sound.o
+ .comment       0x00000000       0x31 ./RTOSDemo/evalbot_drivers/wav.o
+ .comment       0x00000000       0x31 ./RTOSDemo/driverlib/ustdlib.o
+ .comment       0x00000000       0x31 d:/workspace/FreeRTOS/Demo/Common/Minimal/BlockQ.o
+ .comment       0x00000000       0x31 d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+ .comment       0x00000000       0x31 d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+ .comment       0x00000000       0x31 d:/workspace/FreeRTOS/Demo/Common/Minimal/integer.o
+ .comment       0x00000000       0x31 d:/workspace/FreeRTOS/Demo/Common/Minimal/PollQ.o
+ .comment       0x00000000       0x31 d:/workspace/FreeRTOS/Demo/Common/Minimal/semtest.o
+ .comment       0x00000000       0x31 d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+ .comment       0x00000000       0x31 d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+ .comment       0x00000000       0x31 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .comment       0x00000000       0x31 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .comment       0x00000000       0x31 ./RTOSDemo/IntQueueTimer.o
+ .comment       0x00000000       0x31 ./RTOSDemo/webserver/uIP_Task.o
+ .comment       0x00000000       0x31 ./RTOSDemo/webserver/emac.o
+ .comment       0x00000000       0x31 ./RTOSDemo/webserver/httpd.o
+ .comment       0x00000000       0x31 ./RTOSDemo/webserver/httpd-cgi.o
+ .comment       0x00000000       0x31 ./RTOSDemo/webserver/httpd-fs.o
+ .comment       0x00000000       0x31 ./RTOSDemo/webserver/http-strings.o
+ .comment       0x00000000       0x31 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+ .comment       0x00000000       0x31 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+ .comment       0x00000000       0x31 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/timer.o
+ .comment       0x00000000       0x31 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+ .comment       0x00000000       0x31 d:/workspace/FreeRTOS/Source/list.o
+ .comment       0x00000000       0x31 d:/workspace/FreeRTOS/Source/queue.o
+ .comment       0x00000000       0x31 d:/workspace/FreeRTOS/Source/tasks.o
+ .comment       0x00000000       0x31 d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+ .comment       0x00000000       0x31 d:/workspace/FreeRTOS/Source/portable/MemMang/heap_2.o
+ .comment       0x00000000       0x31 ./RTOSDemo/startup.o
+ .comment       0x00000030       0x2a ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+                                 0x2b (size before relaxing)
+ .comment       0x00000000       0x2b ./RTOSDemo/driverlib/gcc/libdriver.a(flash.o)
+ .comment       0x00000000       0x2b ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+ .comment       0x00000000       0x2b ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+ .comment       0x00000000       0x2b ./RTOSDemo/driverlib/gcc/libdriver.a(interrupt.o)
+ .comment       0x00000000       0x2b ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+ .comment       0x00000000       0x2b ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+ .comment       0x00000000       0x2b ./RTOSDemo/driverlib/gcc/libdriver.a(cpu.o)
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 ./RTOSDemo/main.o
+ .ARM.attributes
+                0x00000033       0x33 ./RTOSDemo/timertest.o
+ .ARM.attributes
+                0x00000066       0x33 ./RTOSDemo/ParTest/ParTest.o
+ .ARM.attributes
+                0x00000099       0x33 ./RTOSDemo/evalbot_drivers/dac.o
+ .ARM.attributes
+                0x000000cc       0x33 ./RTOSDemo/evalbot_drivers/display96x16x1.o
+ .ARM.attributes
+                0x000000ff       0x33 ./RTOSDemo/evalbot_drivers/io.o
+ .ARM.attributes
+                0x00000132       0x33 ./RTOSDemo/evalbot_drivers/motor.o
+ .ARM.attributes
+                0x00000165       0x33 ./RTOSDemo/evalbot_drivers/sensors.o
+ .ARM.attributes
+                0x00000198       0x33 ./RTOSDemo/evalbot_drivers/sound.o
+ .ARM.attributes
+                0x000001cb       0x33 ./RTOSDemo/evalbot_drivers/wav.o
+ .ARM.attributes
+                0x000001fe       0x33 ./RTOSDemo/driverlib/ustdlib.o
+ .ARM.attributes
+                0x00000231       0x33 d:/workspace/FreeRTOS/Demo/Common/Minimal/BlockQ.o
+ .ARM.attributes
+                0x00000264       0x33 d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+ .ARM.attributes
+                0x00000297       0x33 d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+ .ARM.attributes
+                0x000002ca       0x33 d:/workspace/FreeRTOS/Demo/Common/Minimal/integer.o
+ .ARM.attributes
+                0x000002fd       0x33 d:/workspace/FreeRTOS/Demo/Common/Minimal/PollQ.o
+ .ARM.attributes
+                0x00000330       0x33 d:/workspace/FreeRTOS/Demo/Common/Minimal/semtest.o
+ .ARM.attributes
+                0x00000363       0x33 d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+ .ARM.attributes
+                0x00000396       0x33 d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+ .ARM.attributes
+                0x000003c9       0x33 d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .ARM.attributes
+                0x000003fc       0x33 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .ARM.attributes
+                0x0000042f       0x33 ./RTOSDemo/IntQueueTimer.o
+ .ARM.attributes
+                0x00000462       0x33 ./RTOSDemo/webserver/uIP_Task.o
+ .ARM.attributes
+                0x00000495       0x33 ./RTOSDemo/webserver/emac.o
+ .ARM.attributes
+                0x000004c8       0x33 ./RTOSDemo/webserver/httpd.o
+ .ARM.attributes
+                0x000004fb       0x33 ./RTOSDemo/webserver/httpd-cgi.o
+ .ARM.attributes
+                0x0000052e       0x33 ./RTOSDemo/webserver/httpd-fs.o
+ .ARM.attributes
+                0x00000561       0x33 ./RTOSDemo/webserver/http-strings.o
+ .ARM.attributes
+                0x00000594       0x33 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+ .ARM.attributes
+                0x000005c7       0x33 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+ .ARM.attributes
+                0x000005fa       0x33 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/timer.o
+ .ARM.attributes
+                0x0000062d       0x33 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+ .ARM.attributes
+                0x00000660       0x33 d:/workspace/FreeRTOS/Source/list.o
+ .ARM.attributes
+                0x00000693       0x33 d:/workspace/FreeRTOS/Source/queue.o
+ .ARM.attributes
+                0x000006c6       0x33 d:/workspace/FreeRTOS/Source/tasks.o
+ .ARM.attributes
+                0x000006f9       0x33 d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+ .ARM.attributes
+                0x0000072c       0x33 d:/workspace/FreeRTOS/Source/portable/MemMang/heap_2.o
+ .ARM.attributes
+                0x0000075f       0x33 ./RTOSDemo/startup.o
+ .ARM.attributes
+                0x00000792       0x31 ./RTOSDemo/driverlib/gcc/libdriver.a(ethernet.o)
+ .ARM.attributes
+                0x000007c3       0x31 ./RTOSDemo/driverlib/gcc/libdriver.a(flash.o)
+ .ARM.attributes
+                0x000007f4       0x31 ./RTOSDemo/driverlib/gcc/libdriver.a(gpio.o)
+ .ARM.attributes
+                0x00000825       0x31 ./RTOSDemo/driverlib/gcc/libdriver.a(i2s.o)
+ .ARM.attributes
+                0x00000856       0x31 ./RTOSDemo/driverlib/gcc/libdriver.a(interrupt.o)
+ .ARM.attributes
+                0x00000887       0x31 ./RTOSDemo/driverlib/gcc/libdriver.a(sysctl.o)
+ .ARM.attributes
+                0x000008b8       0x31 ./RTOSDemo/driverlib/gcc/libdriver.a(timer.o)
+ .ARM.attributes
+                0x000008e9       0x31 ./RTOSDemo/driverlib/gcc/libdriver.a(cpu.o)
+ .ARM.attributes
+                0x0000091a       0x2b d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcmp.o)
+ .ARM.attributes
+                0x00000945       0x2b d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x00000970       0x2b d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000099b       0x2b d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcat.o)
+ .ARM.attributes
+                0x000009c6       0x2b d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strchr.o)
+ .ARM.attributes
+                0x000009f1       0x2b d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcpy.o)
+ .ARM.attributes
+                0x00000a1c       0x2b d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x00000a47       0x2b d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strncmp.o)
+ .ARM.attributes
+                0x00000a72       0x2b d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strncpy.o)
+ .ARM.attributes
+                0x00000a9d       0x2b d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strrchr.o)
+ .ARM.attributes
+                0x00000ac8       0x2b d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strstr.o)
+ .ARM.attributes
+                0x00000af3       0x2b d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memchr.o)
+
+.debug_frame    0x00000000     0x28f8
+ .debug_frame   0x00000000       0xa8 ./RTOSDemo/main.o
+ .debug_frame   0x000000a8       0x50 ./RTOSDemo/timertest.o
+ .debug_frame   0x000000f8       0x6c ./RTOSDemo/ParTest/ParTest.o
+ .debug_frame   0x00000164       0xe0 ./RTOSDemo/evalbot_drivers/dac.o
+ .debug_frame   0x00000244      0x1a8 ./RTOSDemo/evalbot_drivers/display96x16x1.o
+ .debug_frame   0x000003ec      0x108 ./RTOSDemo/evalbot_drivers/io.o
+ .debug_frame   0x000004f4       0xb0 ./RTOSDemo/evalbot_drivers/motor.o
+ .debug_frame   0x000005a4      0x144 ./RTOSDemo/evalbot_drivers/sensors.o
+ .debug_frame   0x000006e8      0x158 ./RTOSDemo/evalbot_drivers/sound.o
+ .debug_frame   0x00000840      0x118 ./RTOSDemo/evalbot_drivers/wav.o
+ .debug_frame   0x00000958      0x110 ./RTOSDemo/driverlib/ustdlib.o
+ .debug_frame   0x00000a68       0x8c d:/workspace/FreeRTOS/Demo/Common/Minimal/BlockQ.o
+ .debug_frame   0x00000af4       0x8c d:/workspace/FreeRTOS/Demo/Common/Minimal/blocktim.o
+ .debug_frame   0x00000b80       0x90 d:/workspace/FreeRTOS/Demo/Common/Minimal/death.o
+ .debug_frame   0x00000c10       0x6c d:/workspace/FreeRTOS/Demo/Common/Minimal/integer.o
+ .debug_frame   0x00000c7c       0x8c d:/workspace/FreeRTOS/Demo/Common/Minimal/PollQ.o
+ .debug_frame   0x00000d08       0x6c d:/workspace/FreeRTOS/Demo/Common/Minimal/semtest.o
+ .debug_frame   0x00000d74       0xc8 d:/workspace/FreeRTOS/Demo/Common/Minimal/GenQTest.o
+ .debug_frame   0x00000e3c       0xc8 d:/workspace/FreeRTOS/Demo/Common/Minimal/QPeek.o
+ .debug_frame   0x00000f04       0xac d:/workspace/FreeRTOS/Demo/Common/Minimal/recmutex.o
+ .debug_frame   0x00000fb0      0x188 d:/workspace/FreeRTOS/Demo/Common/Minimal/IntQueue.o
+ .debug_frame   0x00001138       0x68 ./RTOSDemo/IntQueueTimer.o
+ .debug_frame   0x000011a0       0xc0 ./RTOSDemo/webserver/uIP_Task.o
+ .debug_frame   0x00001260       0xe0 ./RTOSDemo/webserver/emac.o
+ .debug_frame   0x00001340      0x16c ./RTOSDemo/webserver/httpd.o
+ .debug_frame   0x000014ac      0x1d8 ./RTOSDemo/webserver/httpd-cgi.o
+ .debug_frame   0x00001684       0x88 ./RTOSDemo/webserver/httpd-fs.o
+ .debug_frame   0x0000170c       0xbc d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip_arp.o
+ .debug_frame   0x000017c8      0x184 d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/psock.o
+ .debug_frame   0x0000194c       0x8c d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/timer.o
+ .debug_frame   0x000019d8      0x1ec d:/workspace/FreeRTOS/Demo/Common/ethernet/uIP/uip-1.0/uip/uip.o
+ .debug_frame   0x00001bc4       0x9c d:/workspace/FreeRTOS/Source/list.o
+ .debug_frame   0x00001c60      0x2f0 d:/workspace/FreeRTOS/Source/queue.o
+ .debug_frame   0x00001f50      0x51c d:/workspace/FreeRTOS/Source/tasks.o
+ .debug_frame   0x0000246c      0x110 d:/workspace/FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+ .debug_frame   0x0000257c       0x80 d:/workspace/FreeRTOS/Source/portable/MemMang/heap_2.o
+ .debug_frame   0x000025fc       0x9c ./RTOSDemo/startup.o
+ .debug_frame   0x00002698       0x2c d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcmp.o)
+ .debug_frame   0x000026c4       0x30 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+ .debug_frame   0x000026f4       0x2c d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+ .debug_frame   0x00002720       0x2c d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcat.o)
+ .debug_frame   0x0000274c       0x2c d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strchr.o)
+ .debug_frame   0x00002778       0x20 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcpy.o)
+ .debug_frame   0x00002798       0x20 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strlen.o)
+ .debug_frame   0x000027b8       0x30 d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strncmp.o)
+ .debug_frame   0x000027e8       0x2c d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strncpy.o)
+ .debug_frame   0x00002814       0x2c d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strrchr.o)
+ .debug_frame   0x00002840       0x8c d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strstr.o)
+ .debug_frame   0x000028cc       0x2c d:/sourcery_codebench_lite_for_arm_eabi/bin/../lib/gcc/arm-none-eabi/4.6.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memchr.o)

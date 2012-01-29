@@ -57,20 +57,20 @@
 # * which provides information on configuring and running this demo for the
 # * various Luminary Micro EKs.
 # *************************************************************************/
-SRC_DIR=RTOSDemo
-RTOS_ROOT=$(FreeRTOS_ROOT)
+SRC_DIR=./RTOSDemo
+RTOS_ROOT=d:/workspace/FreeRTOS
 RTOS_SOURCE_DIR=$(RTOS_ROOT)/Source
-DEMO_COMMON_DIR=$(RTOS_ROOT)/Common/Minimal
-DEMO_INCLUDE_DIR=$(RTOS_ROOT)/Common/include
-UIP_COMMON_DIR=$(RTOS_ROOT)/Common/ethernet/uIP/uip-1.0/uip
+DEMO_COMMON_DIR=$(RTOS_ROOT)/Demo/Common/Minimal
+DEMO_INCLUDE_DIR=$(RTOS_ROOT)/Demo/Common/include
+UIP_COMMON_DIR=$(RTOS_ROOT)/Demo/Common/ethernet/uIP/uip-1.0/uip
 #LUMINARY_DRIVER_DIR=$(RTOS_ROOT)/Common/drivers/Luminary
 #LUMINARY_DRIVER_DIR=$(RTOS_ROOT)/Common/drivers/Stellaris
 #LUMINARY_DRIVER_DIR=$(RTOS_ROOT)/Common/drivers/LuminaryMicro
-LUMINARY_DRIVER_DIR=$(RTOS_ROOT)/driverlib
+LUMINARY_DRIVER_DIR=$(SRC_DIR)/driverlib
 
 CC=arm-none-eabi-gcc
 OBJCOPY=arm-none-eabi-objcopy
-LDSCRIPT=standalone.ld
+LDSCRIPT=$(SRC_DIR)/standalone.ld
 
 # should use --gc-sections but the debugger does not seem to be able to cope with the option.
 LINKER_FLAGS=-nostartfiles -Xlinker -oRTOSDemo.axf -Xlinker -M -Xlinker -Map=rtosdemo.map -Xlinker --no-gc-sections
@@ -133,18 +133,18 @@ all: RTOSDemo.bin
 RTOSDemo.bin : RTOSDemo.axf
 	$(OBJCOPY) RTOSDemo.axf -O binary RTOSDemo.bin
 
-RTOSDemo.axf : $(OBJS) startup.o Makefile
-	$(CC) $(CFLAGS) $(OBJS) startup.o $(LIBS) $(LINKER_FLAGS)
+RTOSDemo.axf : $(OBJS) $(SRC_DIR)/startup.o Makefile
+	$(CC) $(CFLAGS) $(OBJS) $(SRC_DIR)/startup.o $(LIBS) $(LINKER_FLAGS)
 
-$(OBJS) : %.o : %.c Makefile FreeRTOSConfig.h
+$(OBJS) : %.o : %.c Makefile $(SRC_DIR)/FreeRTOSConfig.h
 	$(CC) -c $(CFLAGS) $< -o $@
 
-startup.o : startup.c Makefile
-	$(CC) -c $(CFLAGS) -O1 startup.c -o startup.o
+startup.o : $(SRC_DIR)/startup.c Makefile
+	$(CC) -c $(CFLAGS) -O1 $(SRC_DIR)/startup.c -o $(SRC_DIR)/startup.o
 		
 clean :
 	touch Makefile
-	cs-rm -f $(OBJS) startup.o rtosdemo.map RTOSDemo.axf RTOSDemo.bin
+	cs-rm -f $(OBJS) $(SRC_DIR)/startup.o $(SRC_DIR)/rtosdemo.map RTOSDemo.axf $(SRC_DIR)/RTOSDemo.bin
 	
 
 
