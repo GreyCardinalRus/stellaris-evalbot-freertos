@@ -1,5 +1,5 @@
 #/*
-#    FreeRTOS V6.1.1 - Copyright (C) 2011 Real Time Engineers Ltd.
+#    FreeRTOS V7.1.1 - Copyright (C) 2011 Real Time Engineers Ltd.
 #
 #    ***************************************************************************
 #    *                                                                         *
@@ -57,8 +57,8 @@
 # * which provides information on configuring and running this demo for the
 # * various Luminary Micro EKs.
 # *************************************************************************/
-SRC_DIR=./RTOSDemo
-RTOS_ROOT=d:/workspace/FreeRTOS
+SRC_DIR=./src
+RTOS_ROOT=../FreeRTOS
 RTOS_SOURCE_DIR=$(RTOS_ROOT)/Source
 DEMO_COMMON_DIR=$(RTOS_ROOT)/Demo/Common/Minimal
 DEMO_INCLUDE_DIR=$(RTOS_ROOT)/Demo/Common/include
@@ -133,17 +133,18 @@ all: RTOSDemo.bin
 RTOSDemo.bin : RTOSDemo.axf
 	$(OBJCOPY) RTOSDemo.axf -O binary RTOSDemo.bin
 
-RTOSDemo.axf : $(OBJS) $(SRC_DIR)/startup.o Makefile
+RTOSDemo.axf : $(OBJS) $(SRC_DIR)/startup.o makefile
 	$(CC) $(CFLAGS) $(OBJS) $(SRC_DIR)/startup.o $(LIBS) $(LINKER_FLAGS)
 
-$(OBJS) : %.o : %.c Makefile $(SRC_DIR)/FreeRTOSConfig.h
+
+$(OBJS) : %.o : %.c makefile $(SRC_DIR)/FreeRTOSConfig.h
 	$(CC) -c $(CFLAGS) $< -o $@
 
-startup.o : $(SRC_DIR)/startup.c Makefile
+startup.o : $(SRC_DIR)/startup.c makefile
 	$(CC) -c $(CFLAGS) -O1 $(SRC_DIR)/startup.c -o $(SRC_DIR)/startup.o
 		
 clean :
-	touch Makefile
+	touch makefile
 	cs-rm -f $(OBJS) $(SRC_DIR)/startup.o $(SRC_DIR)/rtosdemo.map RTOSDemo.axf $(SRC_DIR)/RTOSDemo.bin
 	
 
